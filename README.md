@@ -17,6 +17,13 @@ $ npm start
 
 # generate static project
 $ npm run generate
+
+#build and generate for gh-pages
+$ npm run build:gh-pages
+$ npm run generate:gh-pages
+
+#deploy to gh-pages
+$ npm run deploy
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
