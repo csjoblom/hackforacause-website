@@ -25,6 +25,10 @@ $ npm install # or yarn install
 # do all your code edity stuff with that sweet nuxt
 $ npm run dev
 
+# lint/lintfix your code dummy
+$ npm run lint
+$ npm run lintfix
+
 # generate the ghpages
 # NOTE you do not need to create a build, that is for a production server and not for static pages.
 $ npm run generate:gh-pages
