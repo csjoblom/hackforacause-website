@@ -1,8 +1,12 @@
-# hackforacause-website
+# Hack for a Cause Website
 
-> hackathon website for hack4acause
+> Static Site Generator for Hack for a Cause website. Meant to be used in tandem with Github Pages to host the site.
 
-## Build Setup
+## Requirements
+* NodeJS > 9.0
+* Vue-cli (npm i -g vue-cli)
+
+## Dev Setup
 
 ``` bash
 # install dependencies
@@ -10,29 +14,24 @@ $ npm install # Or yarn install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-
-# build and generate for gh-pages
-$ npm run build:gh-pages
-$ npm run generate:gh-pages
-
-# deploy to gh-pages
-$ npm run deploy
 ```
 
-## Process for Deploying Pages
+## Process for Building Pages
 
 ``` bash
+# after forking this repo, clone the new repo
+$ git clone <newrepo>
+$ cd <project_directory>
+
 # install dependencies
 $ npm install # or yarn install
 
-# do all your code edity stuff i dont know, just dont break anything and test it
+# do all your code edity stuff with that sweet nuxt
+$ npm run dev
+
+# lint/lintfix your code dummy
+$ npm run lint
+$ npm run lintfix
 
 # generate the ghpages
 # NOTE you do not need to create a build, that is for a production server and not for static pages.
@@ -43,5 +42,8 @@ $ npm run deploy
 
 # At this point the gh-pages branch on your repo should be updated with the newly generated pages.
 ```
+
+## Process for Updating Live Pages
+* Once you have deployed the pages to your own repo and everything is green, create a pull request for the gh-pages branch to merge with the live gh-pages repo branch.
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
