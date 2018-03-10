@@ -22,7 +22,8 @@ $ cd <project_directory>
 # install dependencies
 $ npm install # or yarn install
 
-# do all your code edity stuff i dont know, just dont break anything and test it
+# do all your code edity stuff with that sweet nuxt
+$ npm run dev
 
 # generate the ghpages
 # NOTE you do not need to create a build, that is for a production server and not for static pages.
