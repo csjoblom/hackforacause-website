@@ -12,7 +12,7 @@ $ npm install # Or yarn install
 $ npm run dev
 ```
 
-## Process for Deploying Pages
+## Process for Building Pages
 
 ``` bash
 # after forking this repo, clone the new repo
