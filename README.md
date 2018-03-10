@@ -2,7 +2,7 @@
 
 > hackathon website for hack4acause
 
-## Build Setup
+## Dev Setup
 
 ``` bash
 # install dependencies
@@ -10,25 +10,15 @@ $ npm install # Or yarn install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-
-# build and generate for gh-pages
-$ npm run build:gh-pages
-$ npm run generate:gh-pages
-
-# deploy to gh-pages
-$ npm run deploy
 ```
 
 ## Process for Deploying Pages
 
 ``` bash
+# after forking this repo, clone the new repo
+$ git clone <newrepo>
+$ cd <project_directory>
+
 # install dependencies
 $ npm install # or yarn install
 
@@ -43,5 +33,8 @@ $ npm run deploy
 
 # At this point the gh-pages branch on your repo should be updated with the newly generated pages.
 ```
+
+## Process for Updating Live Pages
+* Once you have deployed the pages to your own repo and everything is green, create a pull request for the gh-pages branch to merge with the live gh-pages repo branch.
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
