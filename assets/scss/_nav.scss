@@ -1,0 +1,58 @@
+.nav-toggle {
+    display: inline-block;
+    align-items: flex-start;
+
+    @media (min-width: $screen-md) {
+        display: none;
+    }
+}
+
+.nav-content {
+    &.nav-content--collapse {
+        display: none;
+        @media (max-width: #{$screen-md}-1) {
+            position: fixed;
+            top: 56px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba($dark, 0.95);
+            z-index: 10;
+
+            .nav-items {
+                -webkit-box-orient: vertical;
+                flex-direction: column;
+
+                .nav-item {
+                    text-align: center;
+                    margin: 5px 0;
+
+                    .h4c-links {
+                        display: inline-block;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+
+        @media (min-width: $screen-md) {
+            display: block;
+        }
+
+        &.nav-content--active {
+            @media (max-width: 991px) {
+                display: block;
+            }
+        }
+    }
+
+    .h4c-links {
+        &.h4c-links--active {
+            color: $primary;
+
+            &:hover {
+                color: lighten($primary, 10%);
+            }
+        }
+    }
+}
