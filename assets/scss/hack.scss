@@ -1,0 +1,41 @@
+/* Overrides to 3rd party import SCSS variables. */
+@import "./variables";
+@import "./settings";
+@import "./functions";
+
+/* 3rd party imports. */
+@import "~bootstrap/scss/bootstrap";
+@import "~hamburgers/_sass/hamburgers/hamburgers";
+
+/* H4C styles. */
+@import "./nav";
+@import "./header";
+@import "./sponsors";
+@import "./buttons";
+
+body {
+    font-family: $font-family-base;
+    color: $gray-500;
+}
+
+.h4c--header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.h4c--title {
+    border: 3px solid get-color('yellow');
+    border-left: none;
+    border-right: none;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.h4c-bg--primary {
+    background-color: get-color('yellow');
+}

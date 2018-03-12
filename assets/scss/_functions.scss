@@ -1,0 +1,7 @@
+@function get-color($key: "yelow") {
+    @return map-get($colors, $key);
+  }
+  
+  @function gray($key: "100") {
+    @return map-get($grays, $key);
+  }
