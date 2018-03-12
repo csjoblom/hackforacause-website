@@ -14,7 +14,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-    "deploy": "git push origin `git subtree split --prefix dist develop`:gh-pages --force"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --force"
   },
   "dependencies": {
     "nuxt": "^1.0.0",
