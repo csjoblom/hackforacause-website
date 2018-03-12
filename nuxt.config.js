@@ -1,11 +1,11 @@
-const routerBase =
-  process.env.DEPLOY_ENV === "GH_PAGES"
-    ? {
-        router: {
-          base: "/hackforacause-website/"
-        }
-      }
-    : {}
+// const routerBase =
+//   process.env.DEPLOY_ENV === "GH_PAGES"
+//     ? {
+//         router: {
+//           base: "/hackforacause-website/"
+//         }
+//       }
+//     : {}
 
 module.exports = {
   css: [
@@ -54,7 +54,7 @@ module.exports = {
   /*
   **
   */
-  routerBase,
+  // routerBase,
   /*
   ** Build configuration
   */
