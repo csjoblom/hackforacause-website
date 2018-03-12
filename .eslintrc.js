@@ -21,8 +21,8 @@ module.exports = {
 	// add your custom rules here
 	rules: {
 	  "semi": [2, "never"],
-	  "no-console": "off",
+		"no-console": "off",
 	  "vue/max-attributes-per-line": "off",
-	  "prettier/prettier": ["error", { "semi": false }]
+	  "prettier/prettier": ["error", { "semi": false, "tabWidth": 4 }]
 	}
   }
