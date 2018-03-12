@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
       <img src="~/assets/images/tao-circle-40x40.png" title="Technology Association of Oregon" >
       HACK FOR A CAUSE
     </a>

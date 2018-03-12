@@ -40,6 +40,9 @@ $ npm run generate:gh-pages
 # deploy new gh-pages to repo (requires ability to push to repo)
 $ npm run deploy
 
+# if you want to just build and deploy you can do so (saves you some typing)
+$ npm run nickCage
+
 # At this point the gh-pages branch on your repo should be updated with the newly generated pages.
 ```
 
