@@ -39,3 +39,13 @@ body {
 .h4c-bg--primary {
     background-color: get-color('yellow');
 }
+
+.h4c-bold {
+    color: get-color('yellow');
+    font-size: 30px;
+    padding-top: 45px;
+
+    + div {
+        font-size: 18px;
+    }
+}
