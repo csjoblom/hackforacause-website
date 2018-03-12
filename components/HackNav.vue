@@ -21,7 +21,7 @@ export default {
     name: 'hack-nav',
     created () {
         this.links = [{
-    to: '/hack-for-a-cause-faq',
+    to: '/faq',
     label: 'FAQ',
     title: 'Frequently Asked Questions'
 }, {
