@@ -1,22 +1,21 @@
 <template>
-    <div id="h4c-header" :class="computedClassList">
-        <slot></slot>
-    </div>
+  <div id="h4c-header" :class="computedClassList">
+    <slot/>
+  </div>
 </template>
 <script>
 export default {
-    name: 'hack-header',
+    name: "HackHeader",
     props: {
         headerClass: String
     },
     computed: {
-        computedClassList: function () {
+        computedClassList: function() {
             return {
-                'h4c-header': true,
+                "h4c-header": true,
                 [this.headerClass]: this.headerClass
             }
         }
     }
 }
 </script>
-

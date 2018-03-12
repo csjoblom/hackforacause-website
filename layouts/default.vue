@@ -1,18 +1,17 @@
 <template>
-    <div>
-        <header role="banner">
-            <hack-nav></hack-nav>
-        </header>
-        <nuxt></nuxt>
-    </div>
+  <div>
+    <header role="banner">
+      <hack-nav/>
+    </header>
+    <nuxt/>
+  </div>
 </template>
 <script>
-import HackNav from '@/components/HackNav'
+import HackNav from "@/components/HackNav"
 export default {
-    name: 'default-layout',
+    name: "DefaultLayout",
     components: {
         HackNav
     }
 }
 </script>
-
