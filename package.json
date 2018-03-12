@@ -2,7 +2,7 @@
   "name": "hackforacause-website",
   "version": "1.0.0",
   "description": "hackathon website for hack4acause",
-  "author": "Chris Sjoblom <chriss@idxbroker.com>",
+  "author": "Chris Sjoblom <chris.sjoblom@gmail.com> & Lee Ralls <ralls03@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
