@@ -16,6 +16,16 @@
 body {
     font-family: $font-family-base;
     color: $gray-500;
+
+    a,
+    .navbar-dark .navbar-nav .nav-link,
+    .navbardark .navbar-brand {
+        color: get-color('yellow');
+        &:hover,
+        &:focus {
+            color: get-color('dark-yellow');
+        }
+    }
 }
 
 .h4c--header {
