@@ -7,7 +7,10 @@
 export default {
     name: "HackHeader",
     props: {
-        headerClass: String
+        headerClass: {
+            type: String,
+            default: null
+        }
     },
     computed: {
         computedClassList: function() {
