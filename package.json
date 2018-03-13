@@ -15,7 +15,7 @@
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "deploy": "push-dir --dir=dist --branch=gh-pages --force",
-    "nickCage": "npm run generate:gh-pages && npm run deploy"
+    "pushLive": "npm run generate && npm run deploy"
   },
   "dependencies": {
     "nuxt": "^1.0.0",

@@ -33,15 +33,8 @@ $ npm run dev
 $ npm run lint
 $ npm run lintfix
 
-# generate the ghpages
-# NOTE you do not need to create a build, that is for a production server and not for static pages.
-$ npm run generate:gh-pages
-
-# deploy new gh-pages to repo (requires ability to push to repo)
-$ npm run deploy
-
 # if you want to just build and deploy you can do so (saves you some typing)
-$ npm run nickCage
+$ npm run pushLive
 
 # At this point the gh-pages branch on your repo should be updated with the newly generated pages.
 ```
