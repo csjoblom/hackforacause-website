@@ -10,7 +10,7 @@
     "start": "nuxt start",
     "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
     "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate && cp -rp CNAME dist/CNAME",
-    "generate": "nuxt generate",
+    "generate": "nuxt generate && cp -rp CNAME dist/CNAME",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
