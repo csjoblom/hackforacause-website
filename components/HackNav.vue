@@ -19,7 +19,7 @@
     <div id="h4c-navigation-links" :class="{ 'collapse': true, 'navbar-collapse': true, 'show': expanded }">
       <ul class="navbar-nav ml-auto">
         <li v-for="(link, key) in links" :key="key" class="nav-item">
-          <router-link :to="link.to" :title="link.title" class="nav-link" @click.native="handleClick" v-html="link.label"/>
+          <router-link :id="link.id ? link.id : null" :to="link.to" :title="link.title" class="nav-link" @click.native="handleClick" v-html="link.label"/>
         </li>
       </ul>
     </div>
@@ -53,7 +53,8 @@ export default {
             {
                 to: "/participate",
                 label: "PARTICIPATE",
-                title: "Participate"
+                title: "Participate",
+                id: "h4c-participate"
             }
         ]
     },
