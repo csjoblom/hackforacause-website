@@ -20,6 +20,7 @@ module.exports = {
 	],
 	// add your custom rules here
 	rules: {
+		"vue/html-indent": ["error", 2],
 	  "semi": [2, "never"],
 		"no-console": "off",
 	  "vue/max-attributes-per-line": "off",

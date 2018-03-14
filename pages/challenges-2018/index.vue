@@ -50,11 +50,6 @@ export default {
                     "We need to be able to get real time guest counts from each site to the shuttle drivers and myself. We also need to be able to message each other about site needs. Then in the morning I need the final guest count at each site. At the end of an activation period I need each site to give me their total unique volunteers, volunteer hours. We need the use to be by invitation and passworded or something that makes it secure."
             },
             {
-                title: "McKenzie River Trust",
-                description:
-                    "Create a more efficient donation workflow for mckenzieriver.org."
-            },
-            {
                 title: "Mural Way Finding",
                 description:
                     "As a tourist I don’t know where each of the great murals are located in Eugene. I also don’t know the artist or the organizations that supported."

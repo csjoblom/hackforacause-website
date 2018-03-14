@@ -20,10 +20,25 @@ body {
     a,
     .navbar-dark .navbar-nav .nav-link,
     .navbardark .navbar-brand {
-        color: get-color('yellow');
+        color: $white;
+        text-transform: uppercase;
+        transition: all .125s ease-in;
         &:hover,
         &:focus {
-            color: get-color('dark-yellow');
+            color: get-color('yellow');
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    #h4c-participate {
+        border: 1px solid get-color('yellow');
+        margin-top: 4px;
+        padding: 2px 8px;
+
+        &:hover,
+        &:focus {
+            border: 1px solid white;
         }
     }
 }
