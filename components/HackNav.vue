@@ -1,9 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="/">
+    <router-link class="navbar-brand" to="/" @click="handleClick">
       <img src="~/assets/images/tao-circle-40x40.png" title="Technology Association of Oregon">
       HACK FOR A CAUSE
-    </a>
+    </router-link>
     <button
       :aria-expanded="expanded"
       class="navbar-toggler"
@@ -19,7 +19,7 @@
     <div id="h4c-navigation-links" :class="{ 'collapse': true, 'navbar-collapse': true, 'show': expanded }">
       <ul class="navbar-nav ml-auto">
         <li v-for="(link, key) in links" :key="key" class="nav-item">
-          <router-link :to="link.to" :title="link.title" class="nav-link" v-html="link.label"/>
+          <router-link :to="link.to" :title="link.title" class="nav-link" @click.native="handleClick" v-html="link.label"/>
         </li>
       </ul>
     </div>
@@ -36,6 +36,11 @@ export default {
     created() {
         this.links = [
             {
+                to: "/challenges-2018",
+                label: "2018 Challenges",
+                title: "This year's challenges"
+            },
+            {
                 to: "/faq",
                 label: "FAQ",
                 title: "Frequently Asked Questions"
@@ -51,6 +56,14 @@ export default {
                 title: "Participate"
             }
         ]
+    },
+    methods: {
+        // Only toggle expansion if it's already expanded.
+        handleClick: function() {
+            if (this.expanded) {
+                this.expanded = false
+            }
+        }
     }
 }
 </script>

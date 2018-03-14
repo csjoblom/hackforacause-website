@@ -48,3 +48,10 @@ $font-family-base: 'Share Tech', sans-serif;
 $border-radius: 0;
 $border-radius-lg: 0;
 $border-radius-sm: 0;
+
+// Navbar ovverides
+$navbar-dark-color:                 $yellow-200;
+$navbar-dark-hover-color:           $yellow-300;
+$navbar-dark-active-color:          $yellow-300;
+$navbar-dark-disabled-color:        $yellow-100;
+$navbar-dark-toggler-border-color:  transparent;
