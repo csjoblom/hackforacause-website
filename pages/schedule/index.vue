@@ -1,15 +1,15 @@
 <template>
-  <main role="main">
+  <main id="h4c-schedule-main" role="main">
     <section>
       <hack-header header-class="h4c-header--main">
         <div class="row align-items-center mx-0">
           <div class="col text-center">
-            <h1 class="h4c--title d-inline">Hack Schedule</h1>
+            <h1 class="h4c--title d-inline">2018 Hack Schedule</h1>
           </div>
         </div>
       </hack-header>
     </section>
-    <section id="h4c-2018-schedule" class="container">
+    <section id="h4c-2018-schedule" class="container mt-5">
       <div class="table-responsive">
         <table class="table table-sm">
           <thead class="thead-dark">
@@ -49,17 +49,17 @@ export default {
                     },
                     {
                         event: "Registration/Check-in",
-                        time: "5:00 - 6:00pm",
+                        time: "5:00 - 6:00",
                         location: "Main Floor Entrance"
                     },
                     {
                         event: "VIP/Sponsor Reception",
-                        time: "5:00 - 6:00pm",
+                        time: "5:00 - 6:00",
                         location: "Ballroom Foyer"
                     },
                     {
                         event: "Team Formation",
-                        time: "5:00 - 6:15pm",
+                        time: "5:00 - 6:15",
                         location: "Ballroom"
                     },
                     {
@@ -88,22 +88,22 @@ export default {
                         location: "Ballroom"
                     },
                     {
-                        event: "Weekend Details",
-                        time: "",
-                        location: ""
-                    },
-                    {
                         event: "&quot;The Nitty Gritty&quot; Mark Davis",
                         time: "7:00 - 7:30",
                         location: "Ballroom"
                     },
                     {
                         event: "HACK BEGINS!",
-                        time: "8:00pm",
+                        time: "8:00",
                         location: "Ballroom",
                         options: {
-                            class: "bg-danger"
+                            class: "text-success"
                         }
+                    },
+                    {
+                        event: "Snack &amp; Swag Room",
+                        time: "9:00 - April 8 @ Noon",
+                        location: "Sunset Room"
                     }
                 ]
             },
@@ -120,7 +120,7 @@ export default {
                         time: "7:00 am",
                         location: "Ballroom",
                         options: {
-                            class: "h4c-bg--primary"
+                            class: "text-info"
                         }
                     },
                     {
@@ -133,15 +133,15 @@ export default {
                         time: "Noon",
                         location: "Ballroom",
                         options: {
-                            class: "h4c-bg--primary"
+                            class: "text-info"
                         }
                     },
                     {
-                        event: "Dinner: Cafe Yumm",
-                        time: "6:00 PM",
+                        event: "Dinner: Cafe Yumm!",
+                        time: "6:00",
                         location: "Ballroom",
                         options: {
-                            class: "h4c-bg--primary"
+                            class: "text-info"
                         }
                     }
                 ]
@@ -159,15 +159,15 @@ export default {
                         time: "8:00 am",
                         location: "Ballroom",
                         options: {
-                            class: "h4c-bg--primary"
+                            class: "text-info"
                         }
                     },
                     {
                         event: "HACKING ENDS!",
                         time: "NOON",
-                        location: "",
+                        location: "Ballroom",
                         options: {
-                            class: "bg-danger"
+                            class: "text-danger"
                         }
                     },
                     {
@@ -175,7 +175,7 @@ export default {
                         time: "11:00 - 1:00 pm",
                         location: "Ballroom",
                         options: {
-                            class: "h4c-bg--primary"
+                            class: "text-info"
                         }
                     },
                     {
@@ -224,5 +224,9 @@ export default {
 }
 .h4c--title {
     font-size: 45px;
+
+    @media (max-width: 600px) {
+        font-size: 35px;
+    }
 }
 </style>
