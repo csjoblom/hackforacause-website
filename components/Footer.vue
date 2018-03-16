@@ -28,9 +28,6 @@ export default {
             }
         }
     },
-    mounted() {
-        console.log(this.mySwiper)
-    },
     methods: {
         getImage: function(image) {
             return `/${image}.jpg`
