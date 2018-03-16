@@ -1,5 +1,5 @@
 <template>
-  <main role="main">
+  <main id="h4c-challenges-main" role="main">
     <section>
       <hack-header header-class="h4c-header--main">
         <div class="row align-items-center mx-0">

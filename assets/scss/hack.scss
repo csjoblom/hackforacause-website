@@ -65,6 +65,18 @@ body {
     background-color: get-color('yellow');
 }
 
+.h4c-bg--secondary {
+    background-color: get-color('cyan')
+}
+
+.h4c-text--primary {
+    color: get-color('yellow');
+}
+
+.h4c-text--secondary {
+    color: get-color('cyan');
+}
+
 .h4c-bold {
     color: get-color('yellow');
     font-size: 30px;

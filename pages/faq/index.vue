@@ -1,5 +1,5 @@
 <template>
-  <main role="main">
+  <main id="h4c-faq-main" role="main">
     <section>
       <hack-header header-class="h4c-header--faq">
         <div class="row align-items-center">

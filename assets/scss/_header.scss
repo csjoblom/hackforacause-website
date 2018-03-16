@@ -21,6 +21,16 @@
     }
 }
 
+#h4c-schedule-main,
+#h4c-faq-main,
+#h4c-challenges-main {
+    .h4c-header {
+        @media (max-width: 812px) {
+            height: 320px;
+        }
+    }
+}
+
 #h4c-title-join {
     display: flex;
     justify-content: center;
