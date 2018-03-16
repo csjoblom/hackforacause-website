@@ -21,6 +21,14 @@
         <li v-for="(link, key) in links" :key="key" class="nav-item">
           <router-link :id="link.id ? link.id : null" :to="link.to" :title="link.title" class="nav-link" @click.native="handleClick" v-html="link.label"/>
         </li>
+        <li class="nav-item">
+          <a id="h4c-participate"
+             class="nav-link"
+             href="https://www.eventbrite.com/e/hack-for-a-cause-registration-41925576528"
+             title="Participate in Hack for a Cause 2018"
+             target="_blank"
+          >PARTICIPATE</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -34,6 +42,12 @@ export default {
         }
     },
     created() {
+        /**
+         * Navbar links for INTERNAL pages only since they're handled with the <router-link> component.
+         * Don't link to external sites here.
+         *
+         * @todo Shape object to use <a> or <router-link> with the <component :is="tag"> property.
+         */
         this.links = [
             {
                 to: "/challenges-2018",
@@ -49,12 +63,6 @@ export default {
                 to: "/schedule",
                 label: "SCHEDULE",
                 title: "Schedule"
-            },
-            {
-                to: "/participate",
-                label: "PARTICIPATE",
-                title: "Participate",
-                id: "h4c-participate"
             }
         ]
     },
