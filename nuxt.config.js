@@ -1,6 +1,9 @@
 module.exports = {
     css: ["@/assets/scss/hack.scss", "swiper/dist/css/swiper.css"],
-    plugins: [{ src: "~/plugins/vue-awesome-swiper.js", ssr: false }],
+    plugins: [
+        { src: "~/plugins/vue-awesome-swiper.js", ssr: false },
+        { src: "~/plugins/ga.js", ssr: false }
+    ],
     /*
   ** Headers of the page
   */
