@@ -18,6 +18,7 @@
     "pushLive": "npm run generate && npm run deploy"
   },
   "dependencies": {
+    "npm": "^5.7.1",
     "nuxt": "^1.0.0",
     "vue-awesome-swiper": "^3.1.3"
   },
