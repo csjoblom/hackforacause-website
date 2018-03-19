@@ -1,0 +1,16 @@
+// Overrides for any libraries should be set here.
+$hamburger-types: (
+    spin,
+    spin-r
+);
+// 
+$hamburger-layer-color: $light;
+$hamburger-padding-x: 3px;
+$hamburger-padding-y: 7px;
+$hamburger-layer-width: 30px;
+$hamburger-layer-height: 2px;
+$hamburger-layer-spacing: 5px;
+
+.hamburger:focus {
+    outline: none;
+}

@@ -1,0 +1,26 @@
+.btn--h4c {
+    background: get-color('yellow');
+    border: none;
+    padding: 7px 20px;
+    font-size: 15px;
+    color: $gray-500;
+    padding: 5px 15px;
+
+    &:hover,
+    &:focus {
+        background: get-color('dark-yellow');
+        color: $gray-500;
+    }
+
+    &.btn--h4c-outline {
+        border: 2px solid get-color('yellow');
+        background-color: transparent;
+        color: $gray-500;
+
+        &:hover,
+        &:focus {
+            border: 2px solid get-color('dark-yellow');
+            color: $gray-500;
+        }
+    }
+}

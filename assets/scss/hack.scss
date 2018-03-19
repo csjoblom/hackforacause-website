@@ -1,0 +1,88 @@
+/* Overrides to 3rd party import SCSS variables. */
+@import "./variables";
+@import "./settings";
+@import "./functions";
+
+/* 3rd party imports. */
+@import "~bootstrap/scss/bootstrap";
+@import "~hamburgers/_sass/hamburgers/hamburgers";
+
+/* H4C styles. */
+@import "./nav";
+@import "./header";
+@import "./sponsors";
+@import "./buttons";
+
+body {
+    font-family: $font-family-base;
+    color: $gray-500;
+
+    a,
+    .navbar-dark .navbar-nav .nav-link,
+    .navbardark .navbar-brand {
+        color: $white;
+        text-transform: uppercase;
+        transition: all .125s ease-in;
+        &:hover,
+        &:focus {
+            color: get-color('yellow');
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    #h4c-participate {
+        border: 1px solid get-color('yellow');
+        margin-top: 4px;
+        padding: 2px 8px;
+
+        &:hover,
+        &:focus {
+            border: 1px solid white;
+        }
+    }
+}
+
+.h4c--header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.h4c--title {
+    border: 3px solid get-color('yellow');
+    border-left: none;
+    border-right: none;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.h4c-bg--primary {
+    background-color: get-color('yellow');
+}
+
+.h4c-bg--secondary {
+    background-color: get-color('cyan')
+}
+
+.h4c-text--primary {
+    color: get-color('yellow');
+}
+
+.h4c-text--secondary {
+    color: get-color('cyan');
+}
+
+.h4c-bold {
+    color: get-color('yellow');
+    font-size: 30px;
+    padding-top: 45px;
+
+    + div {
+        font-size: 18px;
+    }
+}
