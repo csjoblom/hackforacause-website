@@ -56,9 +56,14 @@ body {
     border-left: none;
     border-right: none;
     font-size: 30px;
-    line-height: 30px;
     padding: 5px 0;
     margin: 0;
+}
+
+@media(max-width:530px) {
+    .h4c--title {
+        line-height: 65px;
+    }
 }
 
 .h4c-bg--primary {
