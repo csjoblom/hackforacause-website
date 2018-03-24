@@ -42,7 +42,7 @@
       </div>
       <div class="col text-center">
         <figure class="blocks-gallery-image">
-          <img src="~/assets/images/sponsors/us_ignite.png" alt="US Ignite">
+          <img src="~/assets/images/sponsors/us_ignite.jpg" alt="US Ignite">
         </figure>
       </div>
       <div class="col text-center">
