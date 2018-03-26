@@ -37,7 +37,7 @@ export default {
             {
                 title: "15th Night",
                 description:
-                    "15th Night is a community movement supporting the Eugene community to work together to prevent youth from going on to the streets, and quickly getting them off if they do. One challenge to accomplishing this goal is connecting homeless youth with service providers quickly and effectively. Initial web based application was developed as part of 2016 Hack-for-a-Cause, and now we want to expand its capabilities to accommodate a specific need, and to allow for future growth, particularly at a school catchment area level"
+                    "15th Night is a community movement supporting the Eugene community to work together to prevent youth from going on to the streets, and quickly getting them off if they do. One challenge to accomplishing this goal is connecting homeless youth with service providers quickly and effectively. Initial web based application was developed as part of 2016 Hack-for-a-Cause, and now we want to expand its capabilities to accommodate a specific need, and to allow for future growth, particularly at a school catchment area level."
             },
             {
                 title: "Adventure! Children's Museum",
@@ -47,7 +47,7 @@ export default {
             {
                 title: "Emerald Compassionate Action Network",
                 description:
-                    "Leveraging faith community resources for social impactCollectively, the 200 faith communities in Central Lane County represent a very large network of people with resources of time, talent and energy. However, there is an uneven availability of those resources to congregations who launch social service projects. Many congregations think of themselves as too small to contribute. Some congregations are overburdened with their attempts to help. Potential volunteers are often stymied by a lack of hands-on outlets for their desire to help. Cultural stereotypes often prevent interfaith collaborations which once initiated have the potential to soften barriers and strengthen community bonds."
+                    "Our community and many others have been unable to respond effectively to a rapidly increasing cascade of systemic social problems. Multiple groups and organizations are floundering in an overload of disconnected information and even the best collaborations have only been able to produce small-scale solutions. The greatest obstacle is simply a lack of connection and communication among the people with the capacity to help. A well-designed web portal can become an effective social problem-solving network at scale by serving as a networking platform to share action projects that are planned, are being implemented, or have had problems."
             },
             {
                 title: "Egan Warming Center",
