@@ -35,6 +35,11 @@ export default {
     created() {
         this.challenges = [
             {
+                title: "15th Night",
+                description:
+                    "15th Night is a community movement supporting the Eugene community to work together to prevent youth from going on to the streets, and quickly getting them off if they do. One challenge to accomplishing this goal is connecting homeless youth with service providers quickly and effectively. Initial web based application was developed as part of 2016 Hack-for-a-Cause, and now we want to expand its capabilities to accommodate a specific need, and to allow for future growth, particularly at a school catchment area level"
+            },
+            {
                 title: "Adventure! Children's Museum",
                 description:
                     "We are trying to make it easier for families to apply to social services as well as streamline the referral and reporting process. When families struggle to provide the basic necessities of life, they reach out to local non-profits for food, shelter, classes, and many other resources. Unfortunately, the current system requires families to physically go to each individual location and fill out a separate application with repetitive information. This is a big challenge for families as it requires transportation, child care, time, and money to complete this daunting task. The majority of organizations that offer these services are still using pen and paper forms due to funding limitations. They spend endless hours with hand written intakes, reporting, and follow up with referrals. The results are higher administrative costs, barriers, preventable emergency room visits, and poorer health outcomes for our most vulnerable populations."
