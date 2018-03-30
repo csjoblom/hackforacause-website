@@ -39,7 +39,7 @@ export default {
     },
     head() {
         return {
-            title: "Hack for a cause | 2018 Challanges"
+            title: "Hack for a Cause | 2018 Challanges"
         }
     },
     created() {
