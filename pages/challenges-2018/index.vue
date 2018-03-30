@@ -9,6 +9,16 @@
         </div>
       </hack-header>
     </section>
+    <section id="h4c-2018-usignite" class="container">
+      <div>
+        <div class="h4c-subheader--main">
+          US Ignite Smart Gigabit Community
+        </div>
+        <p>Eugene-Springfield was recently chosen for inclusion to the US Ignite Smart Gigabit Community. In addition, we are proud to announce that his year’s Hack for a Cause has been selected as an official US Ignite Smart Gigabit Community Reverse Pitch. This additional designation provides a national partnership and funding to help our community further innovation and push the limits of gigabit internet infrastructure.</p>
+        <p>Smart Gigabit Communities (SGC) Reverse Pitch Competitions – competitions that are focused on empowering local change makers to ideate and develop innovative gigabit applications. US Ignite is a nonprofit that spurs the creation of next-generation applications and services that leverage advanced networking technologies to build the foundation for smart communities. Funded by the National Science Foundation (NSF), US Ignite’s Smart Gigabit Communities program is creating “living lab” environments for the next generation of gigabit applications.</p>
+        <hr>
+      </div> 
+    </section>
     <section id="h4c-2018-challenges" class="container">
       <div v-for="(challenge, key) in challenges" :key="key" class="h4c-challenges">
         <div class="h4c-bold" v-html="challenge.title"/>
