@@ -24,6 +24,17 @@
     }
 }
 
+.h4c-subheader--main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    line-height: 53px;
+    font-size: 36px;
+    color: #ecbe20;
+}
+
 #h4c-schedule-main,
 #h4c-faq-main,
 #h4c-challenges-main {
