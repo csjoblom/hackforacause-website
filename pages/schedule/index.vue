@@ -129,12 +129,22 @@ export default {
                         location: "Ballroom"
                     },
                     {
+                        event: "Comic Workshop with Jan Eliot",
+                        time: "10:30 am - 11:30 am",
+                        location: "Board Room"
+                    },
+                    {
                         event: "Lunch: Nacho Bar",
                         time: "Noon",
                         location: "Ballroom",
                         options: {
                             class: "text-info"
                         }
+                    },
+                    {
+                        event: "Comic Workshop with Matt Brundage",
+                        time: "2:00 pm - 3:00 pm",
+                        location: "Board Room"
                     },
                     {
                         event: "Dinner: Cafe Yumm!",
@@ -185,11 +195,11 @@ export default {
                     },
                     {
                         event: "Judging",
-                        time: "12:30 - 1:30",
+                        time: "12:00 - 1:00 pm",
                         location: "Ballroom"
                     },
                     {
-                        event: "Closing Ceremonies Registration",
+                        event: "Closing Ceremonies",
                         time: "1:00",
                         location: ""
                     },
