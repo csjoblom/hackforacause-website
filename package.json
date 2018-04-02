@@ -15,7 +15,7 @@
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "deploy": "push-dir --dir=dist --branch=gh-pages --force",
-    "pushLive": "npm run generate && npm run deploy"
+    "pushlive": "npm run generate && npm run deploy"
   },
   "dependencies": {
     "npm": "^5.7.1",

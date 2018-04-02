@@ -34,7 +34,7 @@ $ npm run lint
 $ npm run lintfix
 
 # if you want to just build and deploy you can do so (saves you some typing)
-$ npm run pushLive
+$ npm run pushlive
 
 # At this point the gh-pages branch on your repo should be updated with the newly generated pages.
 ```
