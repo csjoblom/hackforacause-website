@@ -22,6 +22,7 @@
     <section id="h4c-2018-challenges" class="container">
       <div v-for="(challenge, key) in challenges" :key="key" class="h4c-challenges">
         <div class="h4c-bold" v-html="challenge.title"/>
+        <div class="h4c-fb-video" v-html="challenge.video"/>
         <p v-html="challenge.description"/>
       </div>
     </section>
@@ -77,7 +78,8 @@ export default {
             {
                 title: "QR Donations",
                 description:
-                    "Fast donation app. QR code for dogooders. Scan to launch app, scan to donate."
+                    "Fast donation app. QR code for dogooders. Scan to launch app, scan to donate.",
+                video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F2030374380542891%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
             },
             {
                 title: "Step Into [AR] Comics",
