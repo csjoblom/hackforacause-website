@@ -92,10 +92,6 @@ body {
     }
 }
 
-.h4c-fb-video {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-    &.
+iframe, object, embed {
+    max-width: 100%;
 }
