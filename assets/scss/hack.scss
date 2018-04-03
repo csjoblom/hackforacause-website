@@ -91,3 +91,7 @@ body {
         font-size: 18px;
     }
 }
+
+iframe, object, embed {
+    max-width: 100%;
+}
