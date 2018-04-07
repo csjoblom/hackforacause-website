@@ -52,8 +52,8 @@ export default {
                 video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/techoregonswv/videos/2031274330452896%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
             },
             {
-                title: "Adventure! Children's Museum",
-                description: `This new museum is becoming established in the community, needing a big boost
+                title: "Adventure! Children's Museum (US IGNITE GRANT)",
+                description: `<div id="h4c-button"><a class="button" href="#">US Ignite Juding Rubric</a></div>This new museum is becoming established in the community, needing a big boost
 towards becoming more accessible online. With most families looking for information on
 the internet, there is a need for the interactive, friendly, and information-based website.
 But we want more than a website - we want to build an interactive portal that gives our
@@ -76,8 +76,8 @@ experience for each visitor.`,
                 video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/techoregonswv/videos/2029397177307278%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
             },
             {
-                title: "Mural Way Finding",
-                description: `Eugene has an expanding set of internationally developed and recognized murals
+                title: "Mural Way Finding (US IGNITE GRANT)",
+                description: `<div id="h4c-button"><a class="button" href="#">US Ignite Juding Rubric</a></div>Eugene has an expanding set of internationally developed and recognized murals
 throughout the city that are continuing to evolve - the 20x21EUG Mural Project by City of
 Eugene Cultural Service’s Public Art Program aims to create 20 or more world-class
 outdoor murals in Eugene between now and the 2021 IAAF World Championships. The
@@ -103,8 +103,8 @@ artwork using the high-speed downtown fiber network.`,
                 video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F2030374380542891%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
             },
             {
-                title: "Step Into [AR] Comics",
-                description: `Augmented reality is taking off with the Apple and Google releasing their developer kits
+                title: "Step Into [AR] Comics (US IGNITE GRANT)",
+                description: `<div id="h4c-button"><a class="button" href="#">US Ignite Juding Rubric</a></div>Augmented reality is taking off with the Apple and Google releasing their developer kits
 for augmented reality apps last fall. Games (Euclidean Lands), tools (MeasureKit), and
 shopping (IKEA Place) apps are now on mobility devices. Eugene based Glimmer
 Technology’s Glimmer XP app is being used for the Step into [AR] Poetry in the Overpark
