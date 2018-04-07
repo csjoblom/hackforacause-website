@@ -17,7 +17,7 @@
         <p>Eugene-Springfield was recently chosen for inclusion to the US Ignite Smart Gigabit Community. In addition, we are proud to announce that his year’s Hack for a Cause has been selected as an official US Ignite Smart Gigabit Community Reverse Pitch. This additional designation provides a national partnership and funding to help our community further innovation and push the limits of gigabit internet infrastructure.</p>
         <p>Smart Gigabit Communities (SGC) Reverse Pitch Competitions – competitions that are focused on empowering local change makers to ideate and develop innovative gigabit applications. US Ignite is a nonprofit that spurs the creation of next-generation applications and services that leverage advanced networking technologies to build the foundation for smart communities. Funded by the National Science Foundation (NSF), US Ignite’s Smart Gigabit Communities program is creating “living lab” environments for the next generation of gigabit applications.</p>
         <hr>
-      </div> 
+      </div>
     </section>
     <section id="h4c-2018-challenges" class="container">
       <div v-for="(challenge, key) in challenges" :key="key" class="h4c-challenges">
@@ -53,8 +53,14 @@ export default {
             },
             {
                 title: "Adventure! Children's Museum",
-                description:
-                    "This new museum is becoming established in the community, needing a big boost towards becoming more accessible online. With most families looking for information on the internet, there is a need for the interactive, friendly, and information-based website. But we want more than a website - we want to build an interactive portal that gives our visitors a portal into our exhibits. By building a site that harnesses the local gigabit fiber and high-speed data transfer capabilities - users will have a say in creating and manipulating the exhibits to their preferences - creating a customized and unique experience for each visitor.",
+                description: `This new museum is becoming established in the community, needing a big boost
+towards becoming more accessible online. With most families looking for information on
+the internet, there is a need for the interactive, friendly, and information-based website.
+But we want more than a website - we want to build an interactive portal that gives our
+visitors a portal into our exhibits. By building a site that harnesses the local gigabit fiber
+and high-speed data transfer capabilities - users will have a say in creating and
+manipulating the exhibits to their preferences - creating a customized and unique
+experience for each visitor.`,
                 video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/techoregonswv/videos/2029841357262860%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
             },
             {
@@ -71,8 +77,17 @@ export default {
             },
             {
                 title: "Mural Way Finding",
-                description:
-                    "As a tourist I don’t know where each of the great murals are located in Eugene. I also don’t know the artist or the organizations that supported.",
+                description: `Eugene has an expanding set of internationally developed and recognized murals
+throughout the city that are continuing to evolve - the 20x21EUG Mural Project by City of
+Eugene Cultural Service’s Public Art Program aims to create 20 or more world-class
+outdoor murals in Eugene between now and the 2021 IAAF World Championships. The
+problem is, tourists (and even locals) have no good centralized resource to find these
+ever-expanding pieces of art. Technologists from Hack for a Cause will work to develop a
+crowdsourced resource to help locals and visitors navigate these public art treasures.
+The opportunity for real-time art interactivity also presents itself - with users being able to
+use smart devices to not only learn more about each mural and art piece - but to use and
+build emerging technologies such as augmented reality to interact and expand upon the
+artwork using the high-speed downtown fiber network.`,
                 video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/techoregonswv/videos/2030377987209197%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
             },
             {
@@ -89,8 +104,18 @@ export default {
             },
             {
                 title: "Step Into [AR] Comics",
-                description:
-                    "We want to provide an opportunity for the creatives in our community to add the &quot;A&quot; to the STEM (science, technology, engineering, and math) model to create a STEAM based interaction in our Parcade parking garage (Willamette Street between 7th and 8th Avenues) with our Step into [Augmented Reality] Comics installation. We want to mimic the Overpark Garage’s Step into [AR] Poetry, Step into [AR] Stories, and Step into [AR] Theatre in the Parcade Garage with images and words that tell a positive story. We will place three (3) augmented reality comic strips on the north stair landings (Hult Center side of the garage) and three (3) on the south stair landings (Saturday and Farmers’ Market side of the garage) to pique the curiosity of the thousands of customers using this garage every month. We have the opportunity to showcase our amazing local digital creative talents to visitors from the coast to the mountains that park in the garage for jury duty, high school graduates at the Hult Center from Churchill to Thurston, and downtown employees and shoppers. The Step into [AR] Comics installation will add to the garages “Parcade Ping Pong” challenge (in development) from the 2016 Hack for a Cause Challenge.We will select up to six (6) comics to display in the Parcade Garage. The comics can be a single scene or up to six panels. Either way, we are open to ideas. Perhaps it’s a dragon that has Rubik’s cube solving scales or a full story comic. We will need a digital image, along with direction on the augmented reality scene that includes music, scene environment, and artistic style. If you can program the scene for augmented reality – bonus points!",
+                description: `Augmented reality is taking off with the Apple and Google releasing their developer kits
+for augmented reality apps last fall. Games (Euclidean Lands), tools (MeasureKit), and
+shopping (IKEA Place) apps are now on mobility devices. Eugene based Glimmer
+Technology’s Glimmer XP app is being used for the Step into [AR] Poetry in the Overpark
+Garage. The augmented reality overlay allows for an interactive experience that will make
+images and comics come to life, literally. It can also serve as an economic development
+tool to attract new talent, new jobs, new businesses to our community because what
+parking garage has augmented reality comics in its stairwells? Only in Eugene! We are
+also currently in talks with local interactive arts/music/game collective Tech Tone
+Graphix to develop a cross-city interactive low-latency game experience across our
+various parking structures as an addendum to their Mozilla Gigabit Community Fund
+grant - stay tuned!`,
                 video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F2030940917152904%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
             },
             {
