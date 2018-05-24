@@ -24,10 +24,10 @@
         <li class="nav-item">
           <a id="h4c-participate"
              class="nav-link"
-             href="https://www.eventbrite.com/e/hack-for-a-cause-registration-41925576528"
-             title="Participate in Hack for a Cause 2018"
+             href="https://goo.gl/forms/OoPiSFyNTAqtcIYv2"
+             title="Submit a Challenge"
              target="_blank"
-          >PARTICIPATE</a>
+          >SUBMIT A CHALLENGE</a>
         </li>
       </ul>
     </div>

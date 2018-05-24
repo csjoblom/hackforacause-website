@@ -19,7 +19,7 @@
             </div>
           </div>
           <div id="h4c-dates">
-            <strong>APRIL 6-8 2018</strong>
+            <strong>APRIL 2019</strong>
           </div>
           <div id="h4c-description">
           <strong>Philanthropic Hackathon</strong></div>
@@ -30,7 +30,7 @@
 
           <div class="flexrow">
             <!--<div id="h4c-button"><a class="button" href="https://www.eventbrite.com/e/hack-for-a-cause-tickets-41925576528">COMPETE</a></div>-->
-            <div id="h4c-button"><a class="button" href="https://www.eventbrite.com/e/hack-for-a-cause-registration-41925576528">SIGN UP</a></div>
+            <div id="h4c-button"><a class="button" target="_blank" href="https://goo.gl/forms/OoPiSFyNTAqtcIYv2">SUBMIT A CHALLENGE</a></div>
           </div>
         </div>
       </hack-header>
