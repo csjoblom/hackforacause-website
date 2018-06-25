@@ -19,7 +19,7 @@
             </div>
           </div>
           <div id="h4c-dates">
-            <strong>APRIL 2019</strong>
+            <strong>APRIL 5-7 2019</strong>
           </div>
           <div id="h4c-description">
           <strong>Philanthropic Hackathon</strong></div>
