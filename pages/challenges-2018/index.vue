@@ -49,7 +49,7 @@ export default {
                 title: "15th Night",
                 description:
                     "15th Night is a community movement supporting the Eugene community to work together to prevent youth from going on to the streets, and quickly getting them off if they do. One challenge to accomplishing this goal is connecting homeless youth with service providers quickly and effectively. Initial web based application was developed as part of 2016 Hack-for-a-Cause, and now we want to expand its capabilities to accommodate a specific need, and to allow for future growth, particularly at a school catchment area level.",
-                video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/techoregonswv/videos/2031274330452896%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
+                video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F2031274330452896%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
             },
             {
                 title: "Adventure! Children's Museum (US IGNITE GRANT)",
@@ -73,7 +73,7 @@ experience for each visitor.`,
                 title: "Egan Warming Center",
                 description:
                     "We need to be able to get real time guest counts from each site to the shuttle drivers and myself. We also need to be able to message each other about site needs. Then in the morning I need the final guest count at each site. At the end of an activation period I need each site to give me their total unique volunteers, volunteer hours. We need the use to be by invitation and passworded or something that makes it secure.",
-                video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/techoregonswv/videos/2029397177307278%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
+                video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F2029397177307278%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
             },
             {
                 title: "Mural Way Finding (US IGNITE GRANT)",
@@ -122,7 +122,7 @@ grant - stay tuned!`,
                 title: "Trans*Ponder",
                 description:
                     "Create an organized resource directory on the Trans*Ponder website with a database backend that will enable a semi-automated process from resource nomination, to information verification, to posting publicly on our website. These resources will include doctors, therapists, surgeons, and other service providers that cater to the trans/gender diverse communities in our local area.",
-                video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/techoregonswv/videos/2030941523819510%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
+                video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F2030941523819510%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
             },
             {
                 title: "Waste Prevention",
@@ -134,7 +134,7 @@ grant - stay tuned!`,
                 title: "White Bird Clinic",
                 description:
                     "Lane County needs a thorough, accurate, accessible resource website. With access to the Internet, most people can use Google to search for information. However, finding the right resource isn’t so simple. Let’s say Jane wants to find a counselor.White Bird Clinic has published a comprehensive resource guide called the HELP book since the 1980s. Many agencies use this guide, but the printed format means information is updated only once a year.",
-                video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/techoregonswv/videos/2032594830320846%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
+                video: `<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F2032594830320846%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>`
             }
         ]
     }
