@@ -68,6 +68,16 @@ body {
 
 .h4c-bg--primary {
     background-color: get-color('yellow');
+
+    a {
+        color: $gray-500;
+        text-transform: none;
+        text-decoration: underline;
+
+        &:hover {
+            color: $gray-500;
+        }
+    }
 }
 
 .h4c-bg--secondary {
