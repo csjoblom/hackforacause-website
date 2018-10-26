@@ -31,6 +31,13 @@
           <div class="flexrow">
             <!--<div id="h4c-button"><a class="button" href="https://www.eventbrite.com/e/hack-for-a-cause-tickets-41925576528">COMPETE</a></div>-->
             <div id="h4c-button"><a class="button" target="_blank" href="https://goo.gl/forms/OoPiSFyNTAqtcIYv2">SUBMIT A CHALLENGE</a></div>
+            <div id="h4c-sponsor-link">
+              <a id="h4c-sponsor-button"
+                 class="button"
+                 title="Sponsor Hack for a Cause"
+                 href="#sponsor-hack-for-a-cause"
+              >BECOME A SPONSOR</a>
+            </div>
           </div>
         </div>
       </hack-header>
@@ -38,8 +45,9 @@
     <hack-sponsors/>
     <hack-challenges-2018/>
     <hack-results-2017/>
-    <section class="h4c-bg--primary py-5 text-center">
-      <p class="lead py-5 m-0">Interested in becoming a sponsor? Email allison.weatherly.@techoregon.org</p>
+    <section id="sponsor-hack-for-a-cause" class="h4c-bg--primary py-5 text-center">
+      <p class="lead container py-5">There are a variety of ways to help support the H4C weekend. While fiscal support is greatly appreciated, you can sponsor a meal, donate supplies or send teams of experts to lend a hand.<br>
+        Email <a href="mailto:allison.weatherly@techoregon.org" title="Email Allison Weatherly to support Hack for a Cause">allison.weatherly@techoregon.org</a> to find the best way to support this community event</p>
     </section>
     <hack-footer/>
   </main>
