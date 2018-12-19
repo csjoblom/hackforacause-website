@@ -1,3 +1,6 @@
+.navbar {
+    font-family: $headings-font-family;
+}
 .navbar-dark .navbar-nav .nav-link.nuxt-link-exact-active {
     color: $yellow-200;
 }
