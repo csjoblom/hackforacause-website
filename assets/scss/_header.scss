@@ -2,6 +2,7 @@
     position: relative;
     height: 659px;
     width: 100%;
+    font-family: $headings-font-family;
     color: #F2F2F2;
     background-size: cover;
     background-position: center bottom;
@@ -25,6 +26,7 @@
 }
 
 .h4c-subheader--main {
+    font-family: $headings-font-family;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,6 +231,12 @@ main {
     align-items: center;
     text-align: center;
     padding: 0px 10px 0px 10px;
+
+    &.h4c--cta {
+        @media screen and (max-width: 767.98px) {
+            flex-direction: column;
+        }
+    }   
 }
 
 .flexcol {
@@ -277,4 +285,8 @@ main {
 div#h4c-button,
 div#h4c-sponsor-link {
     padding: 45px 22.5px;
+
+    @media screen and (max-width: 767.98px) {
+        padding: 22.5px;
+    }
 }

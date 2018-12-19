@@ -4,7 +4,7 @@
       <hack-header header-class="h4c-header--faq">
         <div class="row align-items-center">
           <div class="col text-center">
-            <h1 class="h4c--title d-inline">Frequentlly Asked Questions</h1>
+            <h1 class="h4c--title d-inline">Frequently Asked Questions</h1>
           </div>
         </div>
       </hack-header>
