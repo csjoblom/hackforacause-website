@@ -42,14 +42,18 @@ $dark: $gray-700;
 $screen-md: 992px;
 
 // Fonts.
-$font-family-base: 'Share Tech', sans-serif;
+$font-size-base: 1rem;
+$lead-font-size: $font-size-base;
+
+$font-family-base: 'Roboto', sans-serif;
+$headings-font-family: 'Share Tech', sans-serif;
 
 // Border radius.
 $border-radius: 0;
 $border-radius-lg: 0;
 $border-radius-sm: 0;
 
-// Navbar ovverides
+// Navbar overides
 $navbar-dark-color:                 $yellow-200;
 $navbar-dark-hover-color:           $yellow-300;
 $navbar-dark-active-color:          $yellow-300;

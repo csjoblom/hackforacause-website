@@ -12,6 +12,7 @@
 @import "./header";
 @import "./sponsors";
 @import "./buttons";
+@import "./body";
 
 body {
     font-family: $font-family-base;
@@ -55,6 +56,7 @@ body {
     border: 3px solid get-color('yellow');
     border-left: none;
     border-right: none;
+    font-family: $headings-font-family;
     font-size: 30px;
     padding: 5px 0;
     margin: 0;
@@ -95,11 +97,8 @@ body {
 .h4c-bold {
     color: get-color('yellow');
     font-size: 30px;
+    font-family: $headings-font-family;
     padding-top: 45px;
-
-    + div {
-        font-size: 18px;
-    }
 }
 
 iframe, object, embed {
