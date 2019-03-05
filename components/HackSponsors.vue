@@ -36,21 +36,6 @@
     </div>
     <div class="row align-items-center h4c-sponsors">
       <div class="col text-center">
-        <figure class="blocks-gallery-image">
-          <img src="~/assets/images/sponsors/mozilla.jpg" alt="Mozilla">
-        </figure>
-      </div>
-      <div class="col text-center">
-        <figure class="blocks-gallery-image">
-          <img src="~/assets/images/sponsors/us_ignite.jpg" alt="US Ignite">
-        </figure>
-      </div>
-      <div class="col text-center">
-        <figure class="blocks-gallery-image"><img src="~/assets/images/sponsors/Eugene-e1516088371612.png" alt="" data-id="501"></figure>
-      </div>
-    </div>
-    <div class="row align-items-center h4c-sponsors">
-      <div class="col text-center">
         <figure class="blocks-gallery-image"><img src="~/assets/images/sponsors/approvedlogobridge-e1516130227564.jpg" alt="" data-id="521"></figure>
       </div>
       <div class="col text-center">
@@ -64,9 +49,7 @@
     </div>
     <div class="row align-items-center h4c-sponsors">
       <div class="col text-center">
-        <figure class="blocks-gallery-image">
-          <img src="~/assets/images/sponsors/DAC.png" alt="" data-id="251">
-        </figure>
+        <figure class="blocks-gallery-image"><img src="~/assets/images/sponsors/Eugene-e1516088371612.png" alt="" data-id="501"></figure>
       </div>
       <div class="col text-center">
         <figure class="blocks-gallery-image">
