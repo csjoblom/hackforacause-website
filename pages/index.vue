@@ -49,8 +49,11 @@
     <hack-challenges-2018/>
     <hack-results-2017/>
     <section id="sponsor-hack-for-a-cause" class="h4c-bg--primary py-5 text-center">
-      <p class="lead container py-5">There are a variety of ways to help support the H4C weekend. While fiscal support is greatly appreciated, you can sponsor a meal, donate supplies or send teams of experts to lend a hand.<br>
-        Email <a href="mailto:allison.weatherly@techoregon.org" title="Email Allison Weatherly to support Hack for a Cause">allison.weatherly@techoregon.org</a> to find the best way to support this community event</p>
+      <p class="lead container py-5">
+        There are a variety of ways to support HACK FOR A CAUSE. While financial sponsorships make this community-focused event possible,
+        you can also sponsor a meal, donate supplies or send teams of experts to lend a hand.
+        Specific opportunities and benefits are outlined <a href="/H4C-Sponsorships.pdf" target="_blank">here</a> or contact <a href="mailto:matt.sayre@techoregon.org">matt.sayre@techoregon.org</a>
+      </p>
     </section>
     <hack-footer/>
   </main>

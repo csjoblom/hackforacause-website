@@ -4,7 +4,7 @@
       <div id="h4c-twitter" class="h4c-social d-inline mr-5"><a href="https://twitter.com/hashtag/hack4cause?src=hash" target="_blank"><i class="fa fa-twitter fa-3" aria-hidden="true"/></a></div>
       <div id="h4c-fb" class="h4c-social d-inline mr-5"><a href="https://www.facebook.com/events/240524426488909/" target="_blank"><i class="fa fa-facebook fa-3" aria-hidden="true"/></a></div>
       <div id="h4c-insta" class="h4c-social d-inline mr-5"><a href="https://www.instagram.com/explore/tags/hack4cause/?hl=en" target="_blank"><i class="fa fa-instagram fa-3" aria-hidden="true"/></a></div>
-      <div id="h4c-email" class="h4c-social d-inline"><a href="mailto:allison.weatherly@techorego"><i class="fa fa-envelope fa-2" aria-hidden="true"/></a></div>
+      <div id="h4c-email" class="h4c-social d-inline"><a href="mailto:matt.sayre@techoregon.org"><i class="fa fa-envelope fa-2" aria-hidden="true"/></a></div>
     </div>
     <div id="h4c-copyright" class="h4c-social py-2 text-white lead">&copy; Technology Association of Oregon</div>
   </footer>
