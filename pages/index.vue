@@ -29,11 +29,6 @@
           <strong>Hosted by Technology Association of Oregon</strong></div>
 
           <div class="flexrow h4c--cta">
-            <div id="h4c-button">
-              <a class="button" target="_blank" href="https://goo.gl/forms/OoPiSFyNTAqtcIYv2">
-                SUBMIT A CHALLENGE
-              </a>
-            </div>
             <div id="h4c-sponsor-link">
               <a id="h4c-sponsor-button"
                  class="button"
