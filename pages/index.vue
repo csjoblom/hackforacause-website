@@ -33,6 +33,14 @@
           <strong>Hosted by Technology Association of Oregon</strong></div>
 
           <div class="flexrow h4c--cta">
+            <div id="h4c-button">
+              <a class="button"
+                 target="_blank"
+                 href="https://www.eventbrite.com/e/hack-for-a-cause-2019-registration-58823596962"
+                 title="Sign up for Hack for a Cause 2019">
+                BECOME A HACKER
+              </a>
+            </div>
             <div id="h4c-sponsor-link">
               <a id="h4c-sponsor-button"
                  class="button"
