@@ -18,14 +18,18 @@
               <p class="h4c-title--inner">HACK FOR A CAUSE</p>
             </div>
           </div>
-          <div id="h4c-dates">
+          <div id="h4c-dates" class="h4c-info__heading">
             <strong>APRIL 26-28, 2019</strong>
           </div>
-          <div id="h4c-description">
+          <div id="h4c-location" class="h4c-info__heading text-center">
+            <small>NEW LOCATION FOR 2019!</small>
+            180 W 8th Ave, Eugene, OR 97401
+          </div>
+          <div id="h4c-description" class="h4c-info__heading">
           <strong>Philanthropic Hackathon</strong></div>
-          <div id="h4c-description">
+          <div id="h4c-description" class="h4c-info__heading">
           <strong>Located in Eugene Oregon</strong></div>
-          <div id="h4c-description">
+          <div id="h4c-description" class="h4c-info__heading">
           <strong>Hosted by Technology Association of Oregon</strong></div>
 
           <div class="flexrow h4c--cta">
