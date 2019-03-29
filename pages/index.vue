@@ -23,6 +23,7 @@
           </div>
           <div id="h4c-location" class="h4c-info__heading text-center">
             <small>NEW LOCATION FOR 2019!</small>
+            Hosted by Nulia<br>
             180 W 8th Ave, Eugene, OR 97401
           </div>
           <div id="h4c-description" class="h4c-info__heading">
