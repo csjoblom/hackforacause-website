@@ -54,8 +54,8 @@
       </hack-header>
     </section>
     <hack-sponsors/>
-    <hack-challenges-2018/>
-    <hack-results-2017/>
+    <hack-challenges-2019/>
+    <hack-results-2018/>
     <section id="sponsor-hack-for-a-cause" class="h4c-bg--primary py-5 text-center">
       <p class="lead container py-5">
         There are a variety of ways to support HACK FOR A CAUSE. While financial sponsorships make this community-focused event possible,
@@ -70,16 +70,16 @@
 <script>
 import HackHeader from "@/components/HackHeader"
 import HackSponsors from "@/components/HackSponsors"
-import HackChallenges2018 from "@/components/HackChallenges2018"
-import HackResults2017 from "@/components/HackResults2017"
+import HackChallenges2019 from "@/components/HackChallenges2019"
+import HackResults2018 from "@/components/HackResults2018"
 import HackFooter from "@/components/Footer"
 
 export default {
     components: {
         HackHeader,
         HackSponsors,
-        HackChallenges2018,
-        HackResults2017,
+        HackChallenges2019,
+        HackResults2018,
         HackFooter
     }
 }
