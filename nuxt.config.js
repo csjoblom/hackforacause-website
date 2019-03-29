@@ -38,7 +38,8 @@ module.exports = {
             {
                 rel: "stylesheet",
                 type: "text/css",
-                href: "https://fonts.googleapis.com/css?family=Share+Tech|Roboto"
+                href:
+                    "https://fonts.googleapis.com/css?family=Share+Tech|Roboto"
             },
             {
                 rel: "stylesheet",

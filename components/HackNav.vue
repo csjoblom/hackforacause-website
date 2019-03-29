@@ -50,8 +50,8 @@ export default {
          */
         this.links = [
             {
-                to: "/challenges-2018",
-                label: "2018 Challenges",
+                to: "/challenges-2019",
+                label: "2019 Challenges",
                 title: "This year's challenges"
             },
             {
