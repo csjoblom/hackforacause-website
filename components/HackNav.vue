@@ -58,12 +58,12 @@ export default {
                 to: "/faq",
                 label: "FAQ",
                 title: "Frequently Asked Questions"
-            },
-            {
-                to: "/schedule",
-                label: "SCHEDULE",
-                title: "Schedule"
             }
+            // {
+            //     to: "/schedule",
+            //     label: "SCHEDULE",
+            //     title: "Schedule"
+            // }
         ]
     },
     methods: {
