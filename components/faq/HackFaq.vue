@@ -6,9 +6,9 @@
     </div>
     <div class="h4c-bold"><strong>Is there a code of conduct?</strong></div>
     <div>Yes, you can find this page <a style="color:#ecbe20;" href="conduct/">here</a>.</div>
-    <div class="h4c-bold"><strong>Will the Downtown Athletic Club (DAC) be open overnight?</strong></div>
+    <div class="h4c-bold"><strong>Will the facility be open overnight?</strong></div>
     <div>
-      Yes. The facility will remain open for hackathon participants though the weekend to support the event &#8211; this includes restroom and shower facilities. The DAC will only be open to the general public during normal business hours.
+      Yes. The facility will remain open for hackathon participants though the weekend to support the event &#8211; this includes restroom facilities. The facility may be open to the general public during normal business hours.
     </div>
     <div class="h4c-bold"><strong>I can&#8217;t stay the whole time, can I still participate</strong></div>
     <div>
