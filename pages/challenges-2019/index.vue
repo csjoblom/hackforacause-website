@@ -61,7 +61,9 @@ export default {
                 title:
                     "Lane County and Symantec: Homeless Resource Finder (combined challenge)",
                 description:
-                    "Homeless Resource Finder application for Lane County"
+                    "Homeless Resource Finder application for Lane County",
+                video:
+                    "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F2276980362551906%2F&show_text=0&width=560"
             },
             {
                 title: "City of Eugene: Tools for Community Engagement",
@@ -73,7 +75,8 @@ export default {
                 title: "City of Eugene - Parking Services: Urban Pong",
                 description:
                     "Challenging our indie gamers to build out the Urban Pong experience by creating new games, the mobile app for android and iOS, and retro style leader board. Initial game expansion ideas are a two player game, closing wall game where lights turnoff to simulate a &quot;wall&quot; moving towards the user, vanishing light ball, and any other ideas using the multi colored LED wifi lights.",
-                video: ""
+                video:
+                    "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F831445887214210%2F&show_text=0&width=560"
             },
             {
                 title:
@@ -86,7 +89,9 @@ export default {
                 title: "Lane County Government",
                 description:
                     "Accurate information on the availability of Internet Service Providers, actual prices paid, and real speeds received.",
-                video: ""
+                video:
+                    "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F2283236118613879%2F&show_text=0&width=560"
+                // <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F831445887214210%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
             }
         ]
     }
