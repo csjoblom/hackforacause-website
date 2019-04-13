@@ -50,6 +50,11 @@ export default {
          */
         this.links = [
             {
+                to: "/schedule",
+                label: "SCHEDULE",
+                title: "Schedule"
+            },
+            {
                 to: "/challenges-2019",
                 label: "2019 Challenges",
                 title: "This year's challenges"
@@ -59,11 +64,6 @@ export default {
                 label: "FAQ",
                 title: "Frequently Asked Questions"
             }
-            // {
-            //     to: "/schedule",
-            //     label: "SCHEDULE",
-            //     title: "Schedule"
-            // }
         ]
     },
     methods: {
