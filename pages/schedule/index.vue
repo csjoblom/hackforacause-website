@@ -4,7 +4,7 @@
       <hack-header header-class="h4c-header--main">
         <div class="row align-items-center mx-0">
           <div class="col text-center">
-            <h1 class="h4c--title d-inline">2018 Hack Schedule</h1>
+            <h1 class="h4c--title d-inline">2019 Hack Schedule</h1>
           </div>
         </div>
       </hack-header>
@@ -40,7 +40,7 @@ export default {
     created() {
         this.schedule = [
             {
-                date: "Friday, April 6",
+                date: "Friday, April 26",
                 events: [
                     {
                         event: "Volunteer Orientation",
@@ -55,101 +55,107 @@ export default {
                     {
                         event: "VIP/Sponsor Reception",
                         time: "5:00 - 6:00",
-                        location: "Ballroom Foyer"
+                        location: "TBA"
+                    },
+                    {
+                        event: "Dinner Buffet",
+                        time: "5:30 - 7:30",
+                        location: "Suite 200"
                     },
                     {
                         event: "Team Formation",
                         time: "5:00 - 6:15",
-                        location: "Ballroom"
+                        location: "Suite 200"
                     },
                     {
                         event: "Greetings: Matt Sayre",
                         time: "6:15 - 6:20",
-                        location: "Ballroom"
+                        location: "Suite 200"
                     },
                     {
-                        event: "Welcome: Lucy Vinis",
+                        event: "Sponsor Hello: XS Media",
                         time: "6:20 - 6:25",
-                        location: "Ballroom"
+                        location: "Suite 200"
                     },
                     {
-                        event: "Sponsor Thank Yous: Allison Weatherly",
-                        time: "6:25 - 6:30",
-                        location: "Ballroom"
+                        event: "Welcome: TBA",
+                        time: "6:25 - 6:35",
+                        location: "Suite 200"
                     },
                     {
-                        event: "Keynote: Scott Turnbull",
-                        time: "6:30 - 6:45",
-                        location: "Ballroom"
+                        event: "Keynote: Ritzo from Measurement Lab",
+                        time: "6:35 - 7:00",
+                        location: "Suite 200"
                     },
                     {
                         event: "Challenge Presentation Video",
-                        time: "6:45 - 7:00",
-                        location: "Ballroom"
+                        time: "7:00 - 7:20",
+                        location: "Suite 200"
                     },
                     {
                         event: "&quot;The Nitty Gritty&quot; Mark Davis",
-                        time: "7:00 - 7:30",
-                        location: "Ballroom"
+                        time: "7:20 - 7:30",
+                        location: "Suite 200"
                     },
                     {
                         event: "HACK BEGINS!",
-                        time: "8:00",
-                        location: "Ballroom",
+                        time: "7:30",
+                        location: "Suite 200",
                         options: {
                             class: "text-success"
                         }
                     },
                     {
+                        event:
+                            "Ryan Olds Breakout &dash; Git, README's, and a little Docker",
+                        time: "7:35 - 8:20",
+                        location: "Conference Room"
+                    },
+                    {
                         event: "Snack &amp; Swag Room",
-                        time: "9:00 - April 8 @ Noon",
-                        location: "Sunset Room"
+                        time: "9:00 - April 28 @ Noon",
+                        location: "Kitchen"
                     }
                 ]
             },
             {
-                date: "Saturday, April 7",
+                date: "Saturday, April 27",
                 events: [
                     {
                         event: "Late Night Giveaways",
                         time: "Midnight",
-                        location: "Ballroom"
+                        location: "Suite 200"
                     },
                     {
                         event: "Breakfast: IDX Burritos",
                         time: "7:00 am",
-                        location: "Ballroom",
+                        location: "Kitchen",
                         options: {
                             class: "text-info"
                         }
                     },
                     {
                         event: "Help Desk (mentors)",
-                        time: "10:00 am - 6:00 pm",
-                        location: "Ballroom"
+                        time: "10:00 am - 2:00 pm",
+                        location: "Suite 200"
                     },
                     {
-                        event: "Comic Workshop with Jan Eliot",
-                        time: "10:30 am - 11:30 am",
-                        location: "Board Room"
-                    },
-                    {
-                        event: "Lunch: Nacho Bar",
+                        event: "Lunch: Sizzle Pie",
                         time: "Noon",
-                        location: "Ballroom",
+                        location: "Kitchen",
                         options: {
                             class: "text-info"
                         }
                     },
                     {
-                        event: "Comic Workshop with Matt Brundage",
-                        time: "2:00 pm - 3:00 pm",
-                        location: "Board Room"
+                        event: "Help Desk (mentors)",
+                        time: "4:00 pm - 8:00 pm",
+                        location: "Suite 200"
                     },
                     {
-                        event: "Dinner: Cafe Yumm!",
+                        event: "Dinner",
                         time: "6:00",
-                        location: "Ballroom",
+                        location: "Kitchen",
                         options: {
                             class: "text-info"
                         }
@@ -157,33 +163,38 @@ export default {
                 ]
             },
             {
-                date: "Sunday, April 8",
+                date: "Sunday, April 28",
                 events: [
                     {
                         event: "Late Night Fun",
                         time: "Midnight",
-                        location: "Sunset Room"
+                        location: "Suite 200"
                     },
                     {
                         event: "Breakfast: Voodoo Donuts + Bagels",
                         time: "8:00 am",
-                        location: "Ballroom",
+                        location: "Kitchen",
                         options: {
                             class: "text-info"
                         }
                     },
                     {
+                        event: "Help Desk (mentors)",
+                        time: "10:00 am - 2:00 pm",
+                        location: "Suite 200"
+                    },
+                    {
                         event: "HACKING ENDS!",
                         time: "NOON",
-                        location: "Ballroom",
+                        location: "Suite 200",
                         options: {
                             class: "text-danger"
                         }
                     },
                     {
-                        event: "Brunch",
-                        time: "11:00 - 1:00 pm",
-                        location: "Ballroom",
+                        event: "Brunch: TBA Buffet",
+                        time: "11:00 am - 1:00 pm",
+                        location: "Kitchen",
                         options: {
                             class: "text-info"
                         }
@@ -191,32 +202,28 @@ export default {
                     {
                         event: "Judge Orientation",
                         time: "11:30 - Noon",
-                        location: "AxBilly Grill"
+                        location: "TBA"
                     },
                     {
                         event: "Judging",
                         time: "12:00 - 1:00 pm",
-                        location: "Ballroom"
+                        location: "Suite 200"
                     },
                     {
-                        event: "Closing Ceremonies",
-                        time: "1:00",
-                        location: ""
-                    },
-                    {
-                        event: "Presentation / Video Recap",
-                        time: "2:00 - 3:00",
-                        location: "Ballroom"
+                        event:
+                            "Closing Ceremonies w/ Video Presentations/Sponsor UO",
+                        time: "1:00 - 2:00pm",
+                        location: "Suite 200"
                     },
                     {
                         event: "Awards",
-                        time: "3:00 - 4:00",
-                        location: "Ballroom"
+                        time: "2:00 - 3:00",
+                        location: "Suite 200"
                     },
                     {
                         event: "Photos &amp; Thank Yous",
-                        time: "4:00 - 5:00",
-                        location: "Ballroom"
+                        time: "3:00 - 3:30",
+                        location: "Suite 200"
                     }
                 ]
             }
