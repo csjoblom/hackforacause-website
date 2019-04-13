@@ -45,10 +45,11 @@ export default {
             },
             {
                 title:
-                    "HIV Alliance and ShelterCare: Data collection and storage (combined challenge)",
+                    "HIV Alliance and Shelter Care: Data collection and storage (combined challenge)",
                 description:
                     "It would help us be more efficient if we could use tablets to collect data that could then be imported into a database or spreadsheet. We currently collect the data using paper forms...",
-                video: ""
+                video:
+                    "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F303629326982841%2F&show_text=0&width=560"
             },
             {
                 title:
@@ -83,15 +84,14 @@ export default {
                     "Carry It Forward: Top 5 donations for specific chronically homeless folks",
                 description:
                     "Technology will allow for a setup of a donation portal, in which a few select featured people (chronically homeless) will be able to tell their story and solicit donations for items that will impact them the most.",
-                video: ""
+                video: "https://www.youtube.com/embed/1DGw25klxrw"
             },
             {
-                title: "Lane County Government",
+                title: "Lane County Government: Speed Up America",
                 description:
                     "Accurate information on the availability of Internet Service Providers, actual prices paid, and real speeds received.",
                 video:
                     "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F2283236118613879%2F&show_text=0&width=560"
-                // <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftechoregonswv%2Fvideos%2F831445887214210%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
             }
         ]
     }
