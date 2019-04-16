@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav :class="navClass" class="navbar navbar-expand-lg">
     <router-link class="navbar-brand" to="/" @click="handleClick">
       <img src="~/assets/images/tao-circle-40x40.png" title="Technology Association of Oregon">
       HACK FOR A CAUSE
@@ -36,6 +36,12 @@
 <script>
 export default {
     name: "HackNav",
+    props: {
+        navClass: {
+            type: [String, Array, Object],
+            default: "navbar-dark bg-dark"
+        }
+    },
     data() {
         return {
             expanded: false
@@ -50,9 +56,14 @@ export default {
          */
         this.links = [
             {
+                to: "/",
+                label: "Home",
+                title: "Hack for a Cause Home"
+            },
+            {
                 to: "/schedule",
                 label: "SCHEDULE",
-                title: "Schedule"
+                title: "Hack for a Cause Schedule"
             },
             {
                 to: "/challenges-2019",
@@ -63,6 +74,11 @@ export default {
                 to: "/faq",
                 label: "FAQ",
                 title: "Frequently Asked Questions"
+            },
+            {
+                to: "/meet-our-team",
+                label: "Meet Our Team",
+                title: "Meet our Team"
             }
         ]
     },
