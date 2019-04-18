@@ -10,7 +10,12 @@
       </hack-header>
     </section>
     <section id="h4c-code-of-conduct" class="container">
-      <p class="lead">All Hackathon attendees must adhere to a code of conduct while on the premises as follows: Be considerate of your fellow humans– do not harass, threaten, disrespect, discriminate, or otherwise annoy others.</p>
+      <p class="lead">All Hackathon attendees must adhere to a code of conduct while on the premises as follows:</p>
+      <ul>
+        <li>Be considerate and respectful of your fellow humans</li>
+        <li>Do not harass, threaten, disrespect, discriminate or otherwise annoy others</li>
+        <li>Unwelcome physical contact, sexual attention and disruptive behavior will not be tolerated</li>
+      </ul>
       <p class="lead">Breaking the code of conduct may result in being asked to leave.</p>
       <p class="lead">Additionally, smoking is prohibited inside the building.</p>
     </section>
