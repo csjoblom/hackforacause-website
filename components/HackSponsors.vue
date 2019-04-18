@@ -89,6 +89,11 @@
           <img src="~/assets/images/sponsors/eugenetech.png" alt="Eugene Tech">
         </figure>
       </div>
+      <div class="col text-center">
+        <figure class="blocks-gallery-image">
+          <img src="~/assets/images/sponsors/CLR_CafeYumm_Logo_50text-e1520321985574.png" alt="Cafe Yumm">
+        </figure>
+      </div>
     </div>
   </section>
 </template>
