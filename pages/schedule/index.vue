@@ -192,7 +192,7 @@ export default {
                         }
                     },
                     {
-                        event: "Brunch: TBA Buffet",
+                        event: "Lunch: Cafe Yumm!",
                         time: "11:00 am - 1:00 pm",
                         location: "Kitchen",
                         options: {
