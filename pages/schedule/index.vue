@@ -55,7 +55,7 @@ export default {
                     {
                         event: "VIP/Sponsor Reception",
                         time: "5:00 - 6:00",
-                        location: "TBA"
+                        location: "The Davis"
                     },
                     {
                         event: "Dinner Buffet",
