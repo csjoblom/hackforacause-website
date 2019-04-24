@@ -4,6 +4,8 @@
     <div>
       Teams can be anywhere from one to seven members. All members must register and RSVP.
     </div>
+    <div class="h4c-bold"><strong>What is the judging criteria?</strong></div>
+    <div>Our judging criteria can be found <a href="https://docs.google.com/document/d/1pD-dJlk38GKBjOXHYrWcx-DooICcZNzKOd9viWWKDmo" alt="Hack for a Cause Judging Criteria" target="_blank" style="color:#ecbe20;">here</a></div>
     <div class="h4c-bold"><strong>Is there a code of conduct?</strong></div>
     <div>Yes, you can find this page <a style="color:#ecbe20;" href="conduct/">here</a>.</div>
     <div class="h4c-bold"><strong>Will the facility be open overnight?</strong></div>
