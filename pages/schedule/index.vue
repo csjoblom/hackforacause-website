@@ -73,7 +73,8 @@ export default {
                         location: "Suite 200"
                     },
                     {
-                        event: "Sponsor Hello: XS Media",
+                        event:
+                            "Sponsor Hello: Joe Sventek of University of Oregon",
                         time: "6:20 - 6:25",
                         location: "Suite 200"
                     },
@@ -211,7 +212,7 @@ export default {
                     },
                     {
                         event:
-                            "Closing Ceremonies w/ Video Presentations/Sponsor UO",
+                            "Closing Ceremonies w/ Video Presentations/XS Media",
                         time: "1:00 - 2:00pm",
                         location: "Suite 200"
                     },
