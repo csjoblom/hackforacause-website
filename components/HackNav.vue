@@ -26,7 +26,7 @@
           <a id="h4c-participate"
              class="nav-link"
              href=""
-             title="Sign up for Hack for a Cause 2012"
+             title="Sign up for Hack for a Cause 2020"
              target="_blank"
           >Sign up!</a>
         </li>
