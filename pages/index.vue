@@ -19,7 +19,7 @@
             </div>
           </div>
           <div id="h4c-dates" class="h4c-info__heading">
-            <strong>APRIL 4-6, 2019</strong>
+            <strong>APRIL 4-6, 2020</strong>
           </div>
           <div id="h4c-location" class="h4c-info__heading text-center">
             <small>NEW LOCATION FOR 2020!</small>
@@ -57,7 +57,6 @@
     </section>
     <hack-sponsors/>
     <hack-results-2019/>
-    <hack-results-2018/>
     <section id="sponsor-hack-for-a-cause" class="h4c-bg--primary py-5 text-center">
       <p class="lead container py-5">
         There are a variety of ways to support HACK FOR A CAUSE. While financial sponsorships make this community-focused event possible,
@@ -73,15 +72,13 @@
 import HackHeader from "@/components/HackHeader"
 import HackSponsors from "@/components/HackSponsors"
 import HackResults2019 from "@/components/HackResults2019"
-import HackResults2018 from "@/components/HackResults2018"
 import HackFooter from "@/components/Footer"
 
 export default {
     components: {
         HackHeader,
         HackSponsors,
-        HackChallenges2019,
-        HackResults2018,
+        HackResults2019,
         HackFooter
     }
 }

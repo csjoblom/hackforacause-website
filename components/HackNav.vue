@@ -16,12 +16,12 @@
     >
       <span class="navbar-toggler-icon"/>
     </button>
-    <!-- TODO: Update with 2020 Registration.
     <div id="h4c-navigation-links" :class="{ 'collapse': true, 'navbar-collapse': true, 'show': expanded }">
       <ul class="navbar-nav ml-auto">
         <li v-for="(link, key) in links" :key="key" class="nav-item">
           <router-link :id="link.id ? link.id : null" :to="link.to" :title="link.title" class="nav-link" @click.native="handleClick" v-html="link.label"/>
         </li>
+        <!-- TODO: Update with 2020 Registration.
         <li class="nav-item">
           <a id="h4c-participate"
              class="nav-link"
@@ -30,9 +30,9 @@
              target="_blank"
           >Sign up!</a>
         </li>
+        -->
       </ul>
     </div>
-    -->
   </nav>
 </template>
 <script>
