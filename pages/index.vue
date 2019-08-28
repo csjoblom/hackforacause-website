@@ -19,29 +19,31 @@
             </div>
           </div>
           <div id="h4c-dates" class="h4c-info__heading">
-            <strong>APRIL 26-28, 2019</strong>
+            <strong>APRIL 4-6, 2019</strong>
           </div>
           <div id="h4c-location" class="h4c-info__heading text-center">
-            <small>NEW LOCATION FOR 2019!</small>
-            Hosted by Nulia<br>
-            180 W 8th Ave, Eugene, OR 97401
+            <small>NEW LOCATION FOR 2020!</small>
+            Hosted by LCC - Downtown Campus<br>
+            101 W 10th Ave, Eugene, OR 97401
           </div>
           <div id="h4c-description" class="h4c-info__heading">
           <strong>Philanthropic Hackathon</strong></div>
           <div id="h4c-description" class="h4c-info__heading">
-          <strong>Located in Eugene Oregon</strong></div>
+          <strong>Located in Eugene, Oregon</strong></div>
           <div id="h4c-description" class="h4c-info__heading">
           <strong>Hosted by Technology Association of Oregon</strong></div>
 
           <div class="flexrow h4c--cta">
+            <!-- TODO: Update with 2020 Registration.
             <div id="h4c-button">
               <a class="button"
-                 target="_blank"
-                 href="https://www.eventbrite.com/e/hack-for-a-cause-2019-registration-58823596962"
-                 title="Sign up for Hack for a Cause 2019">
+                target="_blank"
+                href=""
+                title="Sign up for Hack for a Cause 2020">
                 BECOME A HACKER
               </a>
             </div>
+            -->
             <div id="h4c-sponsor-link">
               <a id="h4c-sponsor-button"
                  class="button"
@@ -54,7 +56,7 @@
       </hack-header>
     </section>
     <hack-sponsors/>
-    <hack-challenges-2019/>
+    <hack-results-2019/>
     <hack-results-2018/>
     <section id="sponsor-hack-for-a-cause" class="h4c-bg--primary py-5 text-center">
       <p class="lead container py-5">
@@ -70,7 +72,7 @@
 <script>
 import HackHeader from "@/components/HackHeader"
 import HackSponsors from "@/components/HackSponsors"
-import HackChallenges2019 from "@/components/HackChallenges2019"
+import HackResults2019 from "@/components/HackResults2019"
 import HackResults2018 from "@/components/HackResults2018"
 import HackFooter from "@/components/Footer"
 
