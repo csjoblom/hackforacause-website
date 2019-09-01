@@ -21,14 +21,16 @@
         <li v-for="(link, key) in links" :key="key" class="nav-item">
           <router-link :id="link.id ? link.id : null" :to="link.to" :title="link.title" class="nav-link" @click.native="handleClick" v-html="link.label"/>
         </li>
+        <!-- TODO: Update with 2020 Registration.
         <li class="nav-item">
           <a id="h4c-participate"
              class="nav-link"
-             href="https://www.eventbrite.com/e/hack-for-a-cause-2019-registration-58823596962"
-             title="Sign up for Hack for a Cause 2019"
+             href=""
+             title="Sign up for Hack for a Cause 2020"
              target="_blank"
           >Sign up!</a>
         </li>
+        -->
       </ul>
     </div>
   </nav>
@@ -64,11 +66,6 @@ export default {
                 to: "/schedule",
                 label: "SCHEDULE",
                 title: "Hack for a Cause Schedule"
-            },
-            {
-                to: "/challenges-2019",
-                label: "2019 Challenges",
-                title: "This year's challenges"
             },
             {
                 to: "/faq",
