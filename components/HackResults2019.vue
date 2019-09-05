@@ -2,7 +2,7 @@
   <section id="h4c-results" class="container py-5">
     <div class="row justify-content-center">
       <div id="h4c-results-image" class="col-12 col-md-6">
-        <img class="img-fluid" src="/slide-1.jpg">
+        <img class="img-fluid" src="~/assets/images/slide-1.jpg">
       </div>
       <div id="h4c-results-content" class="col-12 col-md-6 align-self-center text-center">
         <div id="h4c-results-title" class="h4c--header">

@@ -14,13 +14,7 @@ export default {
     name: "HackFooter",
     data() {
         return {
-            images: [
-                "~/assets/images/slide-1",
-                "~/assets/images/slide-2",
-                "~/assets/images/slide-3",
-                "~/assets/images/slide-4",
-                "~/assets/images/slide-5"
-            ],
+            images: ["slide-1", "slide-2", "slide-3", "slide-4", "slide-5"],
             options: {
                 loop: true,
                 className: "my-swiper",
@@ -36,7 +30,7 @@ export default {
     },
     methods: {
         getImage: function(image) {
-            return `/${image}.jpg`
+            return `~/assets/images/${image}.jpg`
         }
     }
 }
