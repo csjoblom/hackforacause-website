@@ -1,7 +1,4 @@
 module.exports = {
-    router: {
-        base: 'hackforacause-website'
-    },
     css: ["@/assets/scss/hack.scss", "swiper/dist/css/swiper.css"],
     plugins: [
         { src: "~/plugins/vue-awesome-swiper.js", ssr: false },
