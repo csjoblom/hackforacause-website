@@ -57,6 +57,9 @@ module.exports = {
     ** Mode Configuration
     */
     mode: "spa",
+    router: {
+        base: '/hackforacause-website/'
+    },
     /*
     ** Build configuration
     */
