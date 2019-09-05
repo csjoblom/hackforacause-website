@@ -1,3 +1,9 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+        base: '/hackforacause-website/'
+    }
+} : {}
+
 module.exports = {
     css: ["@/assets/scss/hack.scss", "swiper/dist/css/swiper.css"],
     plugins: [
@@ -57,9 +63,7 @@ module.exports = {
     ** Mode Configuration
     */
     mode: "spa",
-    router: {
-        base: '/hackforacause-website/'
-    },
+    ...routerBase,
     /*
     ** Build configuration
     */
