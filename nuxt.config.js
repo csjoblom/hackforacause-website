@@ -1,4 +1,11 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+    router: {
+      base: 'hackforacause-website'
+    }
+  } : {}
+
 module.exports = {
+    ...routerBase,
     css: ["@/assets/scss/hack.scss", "swiper/dist/css/swiper.css"],
     plugins: [
         { src: "~/plugins/vue-awesome-swiper.js", ssr: false },
@@ -60,12 +67,12 @@ module.exports = {
     /*
   ** Build configuration
   */
-    buildDir: '_nuxt',
+    buildDir: "_nuxt",
     build: {
         /*
     ** Run ESLint on save
     */
-        publicPath: '_nuxt/dist/',
+        publicPath: "_nuxt/dist/",
         extend(config, { isDev, isClient }) {
             if (isDev && isClient) {
                 config.module.rules.push({
