@@ -1,19 +1,15 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-    router: {
-      base: 'hackforacause-website'
-    }
-  } : {}
-
 module.exports = {
-    ...routerBase,
+    router: {
+        base: 'hackforacause-website'
+    },
     css: ["@/assets/scss/hack.scss", "swiper/dist/css/swiper.css"],
     plugins: [
         { src: "~/plugins/vue-awesome-swiper.js", ssr: false },
         { src: "~/plugins/ga.js", ssr: false }
     ],
     /*
-  ** Headers of the page
-  */
+    ** Headers of the page
+    */
     head: {
         title: "Hack for a Cause",
         meta: [
@@ -57,21 +53,21 @@ module.exports = {
         ]
     },
     /*
-  ** Customize the progress bar color
-  */
+    ** Customize the progress bar color
+    */
     loading: { color: "#ECBE20" },
     /*
-  ** Mode Configuration
-  */
+    ** Mode Configuration
+    */
     mode: "spa",
     /*
-  ** Build configuration
-  */
+    ** Build configuration
+    */
     buildDir: "_nuxt",
     build: {
         /*
-    ** Run ESLint on save
-    */
+        ** Run ESLint on save
+        */
         publicPath: "_nuxt/dist/",
         extend(config, { isDev, isClient }) {
             if (isDev && isClient) {
