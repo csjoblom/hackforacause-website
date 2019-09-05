@@ -1,9 +1,3 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-    router: {
-        base: '/hackforacause-website/'
-    }
-} : {}
-
 module.exports = {
     css: ["@/assets/scss/hack.scss", "swiper/dist/css/swiper.css"],
     plugins: [
@@ -68,6 +62,9 @@ module.exports = {
     ** Build configuration
     */
     buildDir: "_nuxt",
+    router: {
+        base: '/hackforacause-website/'
+    },
     build: {
         /*
         ** Run ESLint on save
