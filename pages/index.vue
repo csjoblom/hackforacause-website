@@ -19,7 +19,7 @@
             </div>
           </div>
           <div id="h4c-dates" class="h4c-info__heading">
-            <strong>APRIL 4-6, 2020</strong>
+            <strong>APRIL 3-5, 2020</strong>
           </div>
           <div id="h4c-location" class="h4c-info__heading text-center">
             <small>NEW LOCATION FOR 2020!</small>
