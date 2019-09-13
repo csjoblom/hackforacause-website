@@ -56,14 +56,10 @@ module.exports = {
     /*
     ** Mode Configuration
     */
-    mode: "spa",
-    router: {
-        base: '/hackforacause-website/'
-    },    
+    mode: "spa",  
     /*
     ** Build configuration
     */
-    buildDir: "_nuxt",
     build: {
         /*
         ** Run ESLint on save
