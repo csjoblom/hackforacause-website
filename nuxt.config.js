@@ -64,7 +64,6 @@ module.exports = {
         /*
         ** Run ESLint on save
         */
-        publicPath: "_nuxt/dist/",
         extend(config, { isDev, isClient }) {
             if (isDev && isClient) {
                 config.module.rules.push({
