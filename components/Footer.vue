@@ -30,7 +30,7 @@ export default {
     },
     methods: {
         getImage: function(image) {
-            return `/${image}.jpg`
+            return `~/assets/images/${image}.jpg`
         }
     }
 }

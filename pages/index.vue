@@ -19,12 +19,10 @@
             </div>
           </div>
           <div id="h4c-dates" class="h4c-info__heading">
-            <strong>APRIL 4-6, 2020</strong>
+            <strong>APRIL 3-5, 2020</strong>
           </div>
           <div id="h4c-location" class="h4c-info__heading text-center">
             <small>NEW LOCATION FOR 2020!</small>
-            Hosted by LCC - Downtown Campus<br>
-            101 W 10th Ave, Eugene, OR 97401
           </div>
           <div id="h4c-description" class="h4c-info__heading">
           <strong>Philanthropic Hackathon</strong></div>
