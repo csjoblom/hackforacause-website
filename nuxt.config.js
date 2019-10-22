@@ -56,7 +56,7 @@ module.exports = {
     /*
     ** Mode Configuration
     */
-    mode: "spa",  
+    mode: "spa",
     /*
     ** Build configuration
     */
