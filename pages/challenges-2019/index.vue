@@ -9,25 +9,32 @@
         </div>
       </hack-header>
     </section>
-    <section id="h4c-2018-challenges" class="container pb-5">
-      <div v-for="(challenge, key) in challenges" :key="key" class="h4c-challenges">
-        <div class="h4c-bold h4c-challenge--title" v-html="challenge.title"/>
-        <div v-if="challenge.video" class="h4c-fb-video">
-          <iframe v-if="typeof challenge.video === 'string'" :src="challenge.video" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"/>
-          <iframe
-            v-for="(v, k) in challenge.video"
-            v-else-if="typeof challenge.video === 'object'"
-            :key="k"
-            :src="v"
-            width="560"
-            height="315"
-            style="border:none;overflow:hidden"
-            scrolling="no"
-            frameborder="0"
-            allowTransparency="true"
-            allowFullScreen="true"/>
+    <section id="h4c-2018-challenges" class="container">
+      <div v-for="(challenge, key) in challenges" :key="key" class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="h4c-bold h4c-challenge--title" v-html="challenge.title"/>
+          </div>
         </div>
-        <p class="h4c-challenge--description" v-html="challenge.description"/>
+        <div v-if="challenge.video" class="row">
+          <div v-for="(v, k) in challenge.video" :key="k" class="col-xs-12 col-s-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="h4c-embed-video">
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe
+                  :src="v"
+                  class="embed-responsive-item"
+                  scrolling="no"
+                  allowTransparency="true"
+                  allowFullScreen="true"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="h4c-challenge--description" v-html="challenge.description"/>
+          </div>
+        </div>
       </div>
     </section>
     <hack-footer/>
@@ -142,6 +149,8 @@ export default {
 }
 .h4c-challenge--title {
     text-transform: capitalize;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
 }
 
 .h4c-challenge--description {
@@ -149,5 +158,12 @@ export default {
     border-bottom: 3px solid #ecbe20;
     border-top: 3px solid #ecbe20;
     padding: 10px;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.h4c-embed-video {
+    padding-top: 20px;
+    padding-botom: 20px;
 }
 </style>
