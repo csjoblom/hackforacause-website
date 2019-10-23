@@ -1,12 +1,16 @@
 module.exports = {
-    css: ["@/assets/scss/hack.scss", "swiper/dist/css/swiper.css"],
+    css: ["~/assets/scss/hack.scss", "swiper/dist/css/swiper.css"],
+    modules: [["@nuxtjs/style-resources"]],
+    styleResources: {
+        sass: "./assets/scss/*.scss"
+    },
     plugins: [
         { src: "~/plugins/vue-awesome-swiper.js", ssr: false },
         { src: "~/plugins/ga.js", ssr: false }
     ],
     /*
-    ** Headers of the page
-    */
+     ** Headers of the page
+     */
     head: {
         title: "Hack for a Cause",
         meta: [
@@ -50,22 +54,22 @@ module.exports = {
         ]
     },
     /*
-    ** Customize the progress bar color
-    */
+     ** Customize the progress bar color
+     */
     loading: { color: "#ECBE20" },
     /*
-    ** Mode Configuration
-    */
+     ** Mode Configuration
+     */
     mode: "spa",
     /*
-    ** Build configuration
-    */
+     ** Build configuration
+     */
     build: {
         /*
-        ** Run ESLint on save
-        */
-        extend(config, { isDev, isClient }) {
-            if (isDev && isClient) {
+         ** Run ESLint on save
+         */
+        extend(config, { isDev }) {
+            if (isDev && process.client) {
                 config.module.rules.push({
                     enforce: "pre",
                     test: /\.(js|vue)$/,

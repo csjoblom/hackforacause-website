@@ -8,10 +8,16 @@
           </div>
           <div class="flexrow">
             <div class="squarebrackets">
-              <i id="heart" class="fa fa-heart-o fa-pulse" aria-hidden="true"/>
+              <i
+                id="heart"
+                class="fa fa-heart-o fa-pulse"
+                aria-hidden="true"
+              />
               <!-- svg from before, here just to keep the :before and : after working -->
               <svg class="heart" viewBox="0 0 32 29.6">
-                <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                <path
+                  d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"
+                />
               </svg>
             </div>
             <div id="h4c-title">
@@ -21,15 +27,23 @@
           <div id="h4c-dates" class="h4c-info__heading">
             <strong>APRIL 3-5, 2020</strong>
           </div>
-          <div id="h4c-location" class="h4c-info__heading text-center">
+          <div
+            id="h4c-location"
+            class="h4c-info__heading text-center"
+          >
             <small>NEW LOCATION FOR 2020!</small>
           </div>
           <div id="h4c-description" class="h4c-info__heading">
-          <strong>Philanthropic Hackathon</strong></div>
+            <strong>Philanthropic Hackathon</strong>
+          </div>
           <div id="h4c-description" class="h4c-info__heading">
-          <strong>Located in Eugene, Oregon</strong></div>
+            <strong>Located in Eugene, Oregon</strong>
+          </div>
           <div id="h4c-description" class="h4c-info__heading">
-          <strong>Hosted by Technology Association of Oregon</strong></div>
+            <strong
+            >Hosted by Technology Association of Oregon</strong
+            >
+          </div>
 
           <div class="flexrow h4c--cta">
             <!-- TODO: Update with 2020 Registration.
@@ -43,26 +57,38 @@
             </div>
             -->
             <div id="h4c-sponsor-link">
-              <a id="h4c-sponsor-button"
-                 class="button"
-                 title="Sponsor Hack for a Cause"
-                 href="#sponsor-hack-for-a-cause"
-              >BECOME A SPONSOR</a>
+              <a
+                id="h4c-sponsor-button"
+                class="button"
+                title="Sponsor Hack for a Cause"
+                href="#sponsor-hack-for-a-cause"
+              >BECOME A SPONSOR</a
+              >
             </div>
           </div>
         </div>
       </hack-header>
     </section>
-    <hack-sponsors/>
-    <hack-results-2019/>
-    <section id="sponsor-hack-for-a-cause" class="h4c-bg--primary py-5 text-center">
+    <hack-sponsors />
+    <hack-results-2019 />
+    <section
+      id="sponsor-hack-for-a-cause"
+      class="h4c-bg--primary py-5 text-center"
+    >
       <p class="lead container py-5">
-        There are a variety of ways to support HACK FOR A CAUSE. While financial sponsorships make this community-focused event possible,
-        you can also sponsor a meal, donate supplies or send teams of experts to lend a hand.
-        Specific opportunities and benefits are outlined <a href="/H4C-Sponsorships.pdf" target="_blank">here</a> or contact <a href="mailto:matt.sayre@techoregon.org">matt.sayre@techoregon.org</a>
+        There are a variety of ways to support HACK FOR A CAUSE. While
+        financial sponsorships make this community-focused event
+        possible, you can also sponsor a meal, donate supplies or send
+        teams of experts to lend a hand. Specific opportunities and
+        benefits are outlined
+        <a href="/H4C-Sponsorships.pdf" target="_blank">here</a> or
+        contact
+        <a href="mailto:matt.sayre@techoregon.org"
+        >matt.sayre@techoregon.org</a
+        >
       </p>
     </section>
-    <hack-footer/>
+    <hack-footer />
   </main>
 </template>
 
@@ -82,5 +108,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

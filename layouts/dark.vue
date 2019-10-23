@@ -1,10 +1,12 @@
 <template>
   <div>
     <header role="banner">
-      <div class="header--dark"/>
-      <hack-nav v-bind="{ navClass: [ 'navbar-dark', 'navbar-transparent' ] }"/>
+      <div class="header--dark" />
+      <hack-nav
+        v-bind="{ navClass: ['navbar-dark', 'navbar-transparent'] }"
+      />
     </header>
-    <nuxt/>
+    <nuxt />
   </div>
 </template>
 <script>

@@ -10,14 +10,25 @@
       </hack-header>
     </section>
     <section id="h4c-2018-challenges" class="container">
-      <div v-for="(challenge, key) in challenges" :key="key" class="container">
+      <div
+        v-for="(challenge, key) in challenges"
+        :key="key"
+        class="container"
+      >
         <div class="row">
           <div class="col-12">
-            <div class="h4c-bold h4c-challenge--title" v-html="challenge.title"/>
+            <div
+              class="h4c-bold h4c-challenge--title"
+              v-html="challenge.title"
+            />
           </div>
         </div>
         <div v-if="challenge.video" class="row">
-          <div v-for="(v, k) in challenge.video" :key="k" class="col-xs-12 col-s-12 col-md-6 col-lg-4 col-xl-4">
+          <div
+            v-for="(v, k) in challenge.video"
+            :key="k"
+            class="col-xs-12 col-s-12 col-md-6 col-lg-4 col-xl-4"
+          >
             <div class="h4c-embed-video">
               <div class="embed-responsive embed-responsive-4by3">
                 <iframe
@@ -25,19 +36,23 @@
                   class="embed-responsive-item"
                   scrolling="no"
                   allowTransparency="true"
-                  allowFullScreen="true"/>
+                  allowFullScreen="true"
+                />
               </div>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-            <p class="h4c-challenge--description" v-html="challenge.description"/>
+            <p
+              class="h4c-challenge--description"
+              v-html="challenge.description"
+            />
           </div>
         </div>
       </div>
     </section>
-    <hack-footer/>
+    <hack-footer />
   </main>
 </template>
 

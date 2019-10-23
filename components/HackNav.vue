@@ -1,7 +1,10 @@
 <template>
   <nav :class="navClass" class="navbar navbar-expand-lg">
     <router-link class="navbar-brand" to="/" @click="handleClick">
-      <img src="~/assets/images/tao-circle-40x40.png" title="Technology Association of Oregon">
+      <img
+        src="~/assets/images/tao-circle-40x40.png"
+        title="Technology Association of Oregon"
+      >
       HACK FOR A CAUSE
     </router-link>
     <button
@@ -14,12 +17,22 @@
       aria-label="Toggle navigation"
       @click="expanded = !expanded"
     >
-      <span class="navbar-toggler-icon"/>
+      <span class="navbar-toggler-icon" />
     </button>
-    <div id="h4c-navigation-links" :class="{ 'collapse': true, 'navbar-collapse': true, 'show': expanded }">
+    <div
+      id="h4c-navigation-links"
+      :class="{ collapse: true, 'navbar-collapse': true, show: expanded }"
+    >
       <ul class="navbar-nav ml-auto">
         <li v-for="(link, key) in links" :key="key" class="nav-item">
-          <router-link :id="link.id ? link.id : null" :to="link.to" :title="link.title" class="nav-link" @click.native="handleClick" v-html="link.label"/>
+          <router-link
+            :id="link.id ? link.id : null"
+            :to="link.to"
+            :title="link.title"
+            class="nav-link"
+            @click.native="handleClick"
+            v-html="link.label"
+          />
         </li>
         <!-- TODO: Update with 2020 Registration.
         <li class="nav-item">
