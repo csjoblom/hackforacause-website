@@ -17,7 +17,7 @@ $ npm install # Or yarn install
 $ npm run dev
 ```
 
-### Docker
+### Docker Compose
 
 ```
 docker-compose up
