@@ -8,6 +8,7 @@
 
 ## Dev Setup
 
+### Local Node.js
 ``` bash
 # install dependencies
 $ npm install # Or yarn install
@@ -15,6 +16,14 @@ $ npm install # Or yarn install
 # serve with hot reload at localhost:3000
 $ npm run dev
 ```
+
+### Docker Compose
+
+```
+docker-compose up
+```
+
+Ignore the "Listening on" output and access the site at http://localhost:3000/
 
 ## Process for Building Pages
 
