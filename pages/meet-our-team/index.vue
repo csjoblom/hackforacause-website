@@ -1,12 +1,18 @@
 <template>
-  <main id="h4c-schedule-main" role="main" style="position: relative; z-index: 2;">
+  <main
+    id="h4c-schedule-main"
+    role="main"
+    style="position: relative; z-index: 2;"
+  >
     <section id="h4c-steering-committee" class="container py-5">
       <div class="d-flex justify-content-center mb-5">
         <h3 class="h4c--title">Meet Our Team</h3>
       </div>
       <p class="lead text-center text-white">
-        Special thanks to Aaron Martins, Antonio Ortega Jr, Ashley Espinoza, Chris Sjoblom, Diego Kourchenko, Eric Hadley, Eric Wills,
-        Jeff Petry, Lauren Neel, Lee Ralls, Mark Davis, Matt Sayre, Shelly Galvin, Stephen Parac &amp; Sylvia Barry
+        Special thanks to Aaron Martins, Antonio Ortega Jr, Ashley
+        Espinoza, Chris Sjoblom, Diego Kourchenko, Eric Hadley, Eric
+        Wills, Jeff Petry, Lauren Neel, Lee Ralls, Mark Davis, Matt
+        Sayre, Shelly Galvin, Stephen Parac &amp; Sylvia Barry
       </p>
       <div class="h4c--team">
         <img
@@ -16,7 +22,7 @@
         >
       </div>
     </section>
-    <hack-footer/>
+    <hack-footer />
   </main>
 </template>
 <script>

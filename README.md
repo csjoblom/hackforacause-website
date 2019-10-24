@@ -3,7 +3,7 @@
 > Static Site Generator for Hack for a Cause website. Meant to be used in tandem with Github Pages to host the site.
 
 ## Requirements
-* NodeJS > 9.0
+* NodeJS > 12
 * Vue-cli (npm i -g vue-cli)
 
 ## Dev Setup

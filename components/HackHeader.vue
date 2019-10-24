@@ -1,6 +1,6 @@
 <template>
   <div id="h4c-header" :class="computedClassList">
-    <slot/>
+    <slot />
   </div>
 </template>
 <script>

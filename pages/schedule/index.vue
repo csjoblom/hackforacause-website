@@ -13,18 +13,40 @@
       <div class="table-responsive">
         <table class="table table-sm">
           <thead class="thead-dark">
-            <th v-for="(val, key) in [ 'Date', 'Event', 'Time', 'Location' ]" :key="key" v-html="val"/>
+            <th
+              v-for="(val, key) in [
+                'Date',
+                'Event',
+                'Time',
+                'Location'
+              ]"
+              :key="key"
+              v-html="val"
+            />
           </thead>
           <tbody v-for="(item, key) in schedule" :key="key">
             <tr v-for="(events, k) in item.events" :key="k">
-              <td class="font-weight-bold" v-html="k === 0 ? item.date : ''"/>
-              <td v-for="(e, i) in events" v-if="typeof e === 'string'" :key="i" :class="events.options ? events.options['class'] : null" v-html="e"/>
+              <td
+                class="font-weight-bold"
+                v-html="k === 0 ? item.date : ''"
+              />
+              <td
+                v-for="(e, i) in events"
+                v-if="typeof e === 'string'"
+                :key="i"
+                :class="
+                  events.options
+                    ? events.options['class']
+                    : null
+                "
+                v-html="e"
+              />
             </tr>
           </tbody>
         </table>
       </div>
     </section>
-    <hack-footer/>
+    <hack-footer />
   </main>
 </template>
 
