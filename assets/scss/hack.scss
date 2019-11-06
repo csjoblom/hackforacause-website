@@ -4,7 +4,8 @@
 @import "./functions";
 
 /* 3rd party imports. */
-@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
 @import "~hamburgers/_sass/hamburgers/hamburgers";
 
 /* H4C styles. */

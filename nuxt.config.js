@@ -1,6 +1,6 @@
 module.exports = {
     css: ["~/assets/scss/hack.scss", "swiper/dist/css/swiper.css"],
-    modules: [["@nuxtjs/style-resources"]],
+    modules: ["@nuxtjs/style-resources", "bootstrap-vue/nuxt"],
     styleResources: {
         sass: "./assets/scss/*.scss"
     },
@@ -81,7 +81,7 @@ module.exports = {
     },
     watchers: {
         webpack: {
-            aggregateTimeout:300,
+            aggregateTimeout: 300,
             poll: 1000
         }
     }
