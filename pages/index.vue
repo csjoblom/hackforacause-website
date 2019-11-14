@@ -56,6 +56,13 @@
               </a>
             </div>
             -->
+            <div id="h4c-button">
+              <a class="button"
+                 href="challenge-submission"
+                 title="Submit a Challenge">
+                Submit a Challenge
+              </a>
+            </div>
             <div id="h4c-sponsor-link">
               <a
                 id="h4c-sponsor-button"
