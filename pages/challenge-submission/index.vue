@@ -1,5 +1,5 @@
 <template>
-         <main id="h4c-schedule-main" role="main">
+  <main id="h4c-schedule-main" role="main">
     <section>
       <hack-header header-class="h4c-header--main">
         <div class="row align-items-center mx-0">
@@ -10,7 +10,7 @@
       </hack-header>
     </section>
     <section id="h4c-2018-schedule" class="container mt-5">
-        <iframe scrolling="auto" src="https://docs.google.com/forms/d/e/1FAIpQLSdXT7EXlF0AFTuQfykSGK1QM6l8F8n125yw9vyaXKXX6ESL3Q/viewform?usp=pp_url"></iframe>
+      <iframe scrolling="auto" src="https://docs.google.com/forms/d/e/1FAIpQLSdXT7EXlF0AFTuQfykSGK1QM6l8F8n125yw9vyaXKXX6ESL3Q/viewform?usp=pp_url" />
     </section>
     <hack-footer />
   </main>
