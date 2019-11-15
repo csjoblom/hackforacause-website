@@ -1,66 +1,54 @@
 <template>
-  <section class="container">
-    <div>
-      <app-logo />
-      <h1 class="title">Hack for a Cause</h1>
-      <h2 class="subtitle">Placeholder to hack all the things</h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a
-        >
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a
-        >
-      </div>
-    </div>
-  </section>
+  <main id="h4c-schedule-main" role="main">
+    <section>
+      <hack-header header-class="h4c-header--main">
+        <div class="row align-items-center mx-0">
+          <div class="col text-center">
+            <h1 class="h4c--title d-inline">Submit A Challenge</h1>
+          </div>
+        </div>
+      </hack-header>
+    </section>
+    <section id="h4c-2018-schedule" class="container mt-5">
+      <iframe scrolling="auto" src="https://docs.google.com/forms/d/e/1FAIpQLSdXT7EXlF0AFTuQfykSGK1QM6l8F8n125yw9vyaXKXX6ESL3Q/viewform?usp=pp_url" />
+    </section>
+    <hack-footer />
+  </main>
 </template>
 
 <script>
-import AppLogo from "~/components/AppLogo.vue"
+import HackHeader from "@/components/HackHeader"
+import HackFooter from "@/components/Footer"
 
 export default {
     components: {
-        AppLogo
+        HackHeader,
+        HackFooter
     }
 }
 </script>
 
-<style>
-.container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+<style scoped>
+iframe {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    min-width: 100%;
+    min-height: 2100px;
 }
-
-.title {
-    font-family: "Quicksand", "Source Sans Pro", -apple-system,
-        BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-        sans-serif; /* 1 */
-    display: block;
-    font-weight: 300;
-    font-size: 100px;
-    color: #35495e;
-    letter-spacing: 1px;
+</style>
+<style lang="scss">
+#h4c-faq {
+    margin-bottom: 5rem;
 }
-
-.subtitle {
-    font-weight: 300;
-    font-size: 42px;
-    color: #526488;
-    word-spacing: 5px;
-    padding-bottom: 15px;
+#h4c-header > .row {
+    height: 100% !important;
 }
+.h4c--title {
+    font-size: 45px;
 
-.links {
-    padding-top: 15px;
+    @media (max-width: 600px) {
+        font-size: 35px;
+    }
 }
 </style>
