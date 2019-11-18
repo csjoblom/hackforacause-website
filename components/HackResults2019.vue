@@ -28,6 +28,12 @@
           >
             VIEW 2019 CHALLENGES
           </router-link>
+          <a class="btn btn-sm btn--h4c btn--h4c-outline"
+                 href="https://www.facebook.com/techoregonswv/photos/?tab=album&album_id=2293948564185470"
+                 title="View 2019 Photos" 
+                 target="_new">
+                VIEW 2019 PHOTOS
+          </a>
         </div>
       </div>
     </div>
