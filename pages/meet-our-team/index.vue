@@ -76,8 +76,8 @@ export default {
             },
             {
                 name: "Frankie Gold",
-                title: "Data Engineer",
-                company: "IDX Broker",
+                title: "Technical Staff, Applications Platform",
+                company: "VMware",
                 image: require('~/assets/images/frankie.jpg')
             },
             {
