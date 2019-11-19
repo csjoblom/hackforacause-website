@@ -3,3 +3,4 @@ node_modules/
 .nuxt/
 dist/
 .DS_Store
+package-lock.json
