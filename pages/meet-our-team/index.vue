@@ -9,17 +9,18 @@
         <h3 class="h4c--title">Meet Our Team</h3>
       </div>
       <p class="lead text-center text-white">
-        Special thanks to Aaron Martins, Antonio Ortega Jr, Ashley
-        Espinoza, Chris Sjoblom, Diego Kourchenko, Eric Hadley, Eric
-        Wills, Jeff Petry, Lauren Neel, Lee Ralls, Mark Davis, Matt
-        Sayre, Shelly Galvin, Stephen Parac &amp; Sylvia Barry
+        The Hack for a Cause Steering Committee brings together local leaders in the technology, non-profit and education sectors to make sure our participants, champions, volunteers, and community have a positive experience and meaningful event.
       </p>
-      <div class="h4c--team">
-        <img
-          src="~/assets/images/h4c-steering-committee.jpg"
-          alt="Hack for a Cause Steering Committee"
-          class="img-fluid"
-        >
+      <div class="row d-flex flex-row">
+        <div v-for="(member, key) in committee" :key="key"
+             class="p-4 col-sm-12 col-md-6 col-lg-3 col-xl-4 text-center">
+          <img
+            :src="member.image"
+            :alt="member.name"
+            class="rounded-circle"
+          >
+          <br>{{ member.name }}<br>{{ member.title }}<br>{{ member.company }}
+        </div>
       </div>
     </section>
     <hack-footer />
@@ -31,6 +32,91 @@ export default {
     layout: "dark",
     components: {
         HackFooter
+    }
+}
+</script>
+<script>
+import HackFooter from "@/components/Footer"
+export default {
+    layout: "dark",
+    components: {
+        HackFooter
+    },
+     created() {
+        this.committee = [
+            {
+                name: "Sylvia Kidder Barry",
+                title: "Vice President of Resource Development",
+                company: "United Way of Lane County",
+                image: require('~/assets/images/sylvia.jpg')
+            },
+            {
+                name: "Mark Davis",
+                title: "Founder",
+                company: " ",
+                image: require('~/assets/images/mark.jpg')
+            },
+            {
+                name: "Adam Epstein",
+                title: "Application Support Tech",
+                company: "City of Eugene",
+                image: require('~/assets/images/adam.jpg')
+            },
+            {
+                name: "Ashley Espinoza",
+                title: "Sector Strategy Director",
+                company: "Lane Workforce Partnership",
+                image: require('~/assets/images/ashley.jpg')
+            },
+            {
+                name: "Nikole Gipps",
+                title: "WordPress Engineer",
+                company: "X-Team",
+                image: require('~/assets/images/nikole.jpg')
+            },
+            {
+                name: "Frankie Gold",
+                title: "Data Engineer",
+                company: "IDX Broker",
+                image: require('~/assets/images/frankie.jpg')
+            },
+            {
+                name: "Sarah Koski",
+                title: "Creative Nonprofit Partnerships Consultant",
+                company: " ",
+                image: require('~/assets/images/sarah.jpg')
+            },
+            {
+                name: "Jess Morris",
+                title: "Growth Marketing & Analytics Consultant",
+                company: "Mammoth Growth",
+                image: require('~/assets/images/jess.jpg')
+            },
+            {
+                name: "Stephen Parac",
+                title: "Chief Operations Officer",
+                company: "XS Media",
+                image: require('~/assets/images/stephen.jpg')
+            },
+            {
+                name: "Matt Sayre",
+                title: "Vice President",
+                company: "Technology Association of Oregon",
+                image: require('~/assets/images/matt.jpg')
+            },
+            {
+                name: "Jared Swezey",
+                title: "CTO",
+                company: "UpTime Science",
+                image: require('~/assets/images/jared.jpg')
+            },
+            {
+                name: "Eric D. Wills",
+                title: "Senior Instructor, Computer Science",
+                company: "University of Oregon",
+                image: require('~/assets/images/ericw.jpg')
+            },
+        ]
     }
 }
 </script>
