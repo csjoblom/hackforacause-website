@@ -46,16 +46,14 @@
           </div>
 
           <div class="flexrow h4c--cta">
-            <!-- TODO: Update with 2020 Registration.
             <div id="h4c-button">
               <a class="button"
-                target="_blank"
-                href=""
-                title="Sign up for Hack for a Cause 2020">
-                BECOME A HACKER
+                 target="_blank"
+                 href="https://www.eventbrite.com/e/hack-for-a-cause-2020-registration-82027058139"
+                 title="Sign up for Hack for a Cause 2020">
+                Register for Event
               </a>
             </div>
-            -->
             <div id="h4c-button">
               <a class="button"
                  href="challenge-submission"
@@ -69,7 +67,7 @@
                 class="button"
                 title="Sponsor Hack for a Cause"
                 href="#sponsor-hack-for-a-cause"
-              >BECOME A SPONSOR</a
+              >Become a Sponsor</a
               >
             </div>
           </div>
