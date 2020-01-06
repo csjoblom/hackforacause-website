@@ -81,6 +81,11 @@ export default {
                 title: "Hack for a Cause Schedule"
             },
             {
+                to: "/challenge-submission",
+                label: "Challenges",
+                title: "Submit a Challenge"
+            },
+            {
                 to: "/faq",
                 label: "FAQ",
                 title: "Frequently Asked Questions"

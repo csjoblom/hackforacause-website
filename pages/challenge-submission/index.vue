@@ -9,8 +9,14 @@
         </div>
       </hack-header>
     </section>
+    <section class="container mt-5">
+      Questions? Please see below the form for more information.
+    </section>
     <section id="h4c-2018-schedule" class="container mt-5">
       <iframe scrolling="auto" src="https://docs.google.com/forms/d/e/1FAIpQLSdXT7EXlF0AFTuQfykSGK1QM6l8F8n125yw9vyaXKXX6ESL3Q/viewform?usp=pp_url" />
+    </section>
+    <section id="h4c-faq" class="container">
+      <submit-faq />
     </section>
     <hack-footer />
   </main>
@@ -18,11 +24,13 @@
 
 <script>
 import HackHeader from "@/components/HackHeader"
+import SubmitFaq from "~/components/faq/SubmitFaq"
 import HackFooter from "@/components/Footer"
 
 export default {
     components: {
         HackHeader,
+        SubmitFaq,
         HackFooter
     }
 }
