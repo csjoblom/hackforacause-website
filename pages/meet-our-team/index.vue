@@ -82,15 +82,33 @@ export default {
             },
             {
                 name: "Sarah Koski",
-                title: "Creative Nonprofit Partnerships Consultant",
-                company: " ",
+                title: "Consultant",
+                company: "Creative Nonprofit Partnerships",
                 image: require('~/assets/images/sarah.jpg')
+            },
+            {
+                name: "Diego Kourchenko",
+                title: "Computer Science Undergraduate",
+                company: "Oregon State University",
+                image: require('~/assets/images/diego.jpg')
+            },
+            {
+                name: "Bishop Lafer",
+                title: "Marketing Developer Analyst",
+                company: "IDX, LLC",
+                image: require('~/assets/images/bishop.jpg')
             },
             {
                 name: "Jess Morris",
                 title: "Growth Marketing & Analytics Consultant",
                 company: "Mammoth Growth",
                 image: require('~/assets/images/jess.jpg')
+            },
+            {
+                name: "Antonio Ortega Jr.",
+                title: "Integrations Engineer",
+                company: "IDX, LLC",
+                image: require('~/assets/images/antonio.jpg')
             },
             {
                 name: "Stephen Parac",
