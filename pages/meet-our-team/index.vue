@@ -69,7 +69,7 @@ export default {
                 image: require('~/assets/images/ashley.jpg')
             },
             {
-                name: "Nikole Gipps",
+                name: "Nikole Garcia",
                 title: "WordPress Engineer",
                 company: "X-Team",
                 image: require('~/assets/images/nikole.jpg')
@@ -117,10 +117,10 @@ export default {
                 image: require('~/assets/images/stephen.jpg')
             },
             {
-                name: "Matt Sayre",
-                title: "Vice President",
+                name: "Cara Snow",
+                title: "Chief Community Engagement Officer & Chief of Staff",
                 company: "Technology Association of Oregon",
-                image: require('~/assets/images/matt.jpg')
+                image: require('~/assets/images/cara.jpg')
             },
             {
                 name: "Jared Swezey",
