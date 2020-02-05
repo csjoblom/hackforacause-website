@@ -88,8 +88,8 @@
         benefits are outlined
         <a href="/H4C-Sponsorships.pdf" target="_blank">here</a> or
         contact
-        <a href="mailto:matt.sayre@techoregon.org"
-        >matt.sayre@techoregon.org</a
+        <a href="mailto:cara.snow@techoregon.org"
+        >cara.snow@techoregon.org</a
         >
       </p>
     </section>
