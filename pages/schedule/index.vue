@@ -62,7 +62,7 @@ export default {
     created() {
         this.schedule = [
             {
-                date: "Friday, April 4",
+                date: "Friday, April 3",
                 events: [
                     {
                         event: "TBA",
@@ -72,7 +72,7 @@ export default {
                 ]
             },
             {
-                date: "Saturday, April 5",
+                date: "Saturday, April 4",
                 events: [
                     {
                         event: "TBA",
@@ -82,7 +82,7 @@ export default {
                 ]
             },
             {
-                date: "Sunday, April 6",
+                date: "Sunday, April 5",
                 events: [
                     {
                         event: "TBA",

@@ -23,7 +23,7 @@
         /></a>
       </div>
       <div id="h4c-email" class="h4c-social d-inline">
-        <a href="mailto:matt.sayre@techoregon.org"
+        <a href="mailto:cara.snow@techoregon.org"
         ><i class="fa fa-envelope fa-2" aria-hidden="true"
         /></a>
       </div>

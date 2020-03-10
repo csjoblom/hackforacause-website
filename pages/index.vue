@@ -49,7 +49,7 @@
             <div id="h4c-button">
               <a class="button"
                  target="_blank"
-                 href="https://www.eventbrite.com/e/hack-for-a-cause-2020-registration-82027058139"
+                 href="https://web.cvent.com/event/ea75cec7-7a52-4eb8-8da2-9f89566b44c0/summary"
                  title="Sign up for Hack for a Cause 2020">
                 Register for Event
               </a>
@@ -88,8 +88,8 @@
         benefits are outlined
         <a href="/H4C-Sponsorships.pdf" target="_blank">here</a> or
         contact
-        <a href="mailto:matt.sayre@techoregon.org"
-        >matt.sayre@techoregon.org</a
+        <a href="mailto:cara.snow@techoregon.org"
+        >cara.snow@techoregon.org</a
         >
       </p>
     </section>
