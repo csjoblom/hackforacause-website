@@ -34,7 +34,6 @@
             v-html="link.label"
           />
         </li>
-        <!-- TODO: Update with 2020 Registration.
         <li class="nav-item">
           <a id="h4c-participate"
              class="nav-link"
@@ -81,7 +80,7 @@ export default {
                 title: "Hack for a Cause Schedule"
             },
             {
-                to: "/challenge-submission",
+                to: "/challenges-2020",
                 label: "Challenges",
                 title: "Submit a Challenge"
             },
