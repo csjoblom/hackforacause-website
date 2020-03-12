@@ -1,5 +1,13 @@
 <template>
   <main role="main">
+    <section
+      id="sponsor-hack-for-a-cause"
+      class="h4c-bg--primary py-5 text-center"
+    >
+      <p class="lead container py-5">
+        NOTICE: The 2020 Hack for a Cause event has been postponed and will no longer take place in April.<br>Please check <a href="/cancellation-policy">the cancellation page</a> for more information.
+      </p>
+    </section>
     <section>
       <hack-header header-class="h4c-header--main">
         <div id="h4c-header" class="flexcol">
@@ -25,13 +33,13 @@
             </div>
           </div>
           <div id="h4c-dates" class="h4c-info__heading">
-            <strong>APRIL 3-5, 2020</strong>
+            <strong>DATE TBA</strong>
           </div>
           <div
             id="h4c-location"
             class="h4c-info__heading text-center"
           >
-            <small>NEW LOCATION FOR 2020!</small>
+            <small>LOCATION TBA</small>
           </div>
           <div id="h4c-description" class="h4c-info__heading">
             <strong>Philanthropic Hackathon</strong>
@@ -48,15 +56,14 @@
           <div class="flexrow h4c--cta">
             <div id="h4c-button">
               <a class="button"
-                 target="_blank"
-                 href="https://web.cvent.com/event/ea75cec7-7a52-4eb8-8da2-9f89566b44c0/summary"
+                 href="/cancellation-policy"
                  title="Sign up for Hack for a Cause 2020">
                 Register for Event
               </a>
             </div>
             <div id="h4c-button">
               <a class="button"
-                 href="challenge-submission"
+                 href="/cancellation-policy"
                  title="Submit a Challenge">
                 Submit a Challenge
               </a>
