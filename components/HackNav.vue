@@ -37,9 +37,8 @@
         <li class="nav-item">
           <a id="h4c-participate"
              class="nav-link"
-             href=""
+             href="/cancellation-policy"
              title="Sign up for Hack for a Cause 2020"
-             target="_blank"
           >Sign up!</a>
         </li>
         -->
@@ -73,11 +72,6 @@ export default {
                 to: "/",
                 label: "Home",
                 title: "Hack for a Cause Home"
-            },
-            {
-                to: "/schedule",
-                label: "SCHEDULE",
-                title: "Hack for a Cause Schedule"
             },
             {
                 to: "/challenges-2020",
