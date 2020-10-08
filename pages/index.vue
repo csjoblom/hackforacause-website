@@ -87,7 +87,7 @@
         benefits are outlined
         <a href="/H4C-Sponsorships.pdf" target="_blank">here</a> or
         contact
-        <a href="sally.bell@techoregon.org"
+        <a href="mailto:sally.bell@techoregon.org"
         >sally.bell@techoregon.org</a
         >
       </p>
