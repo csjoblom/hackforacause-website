@@ -4,15 +4,6 @@
       <div class="col text-center">
         <figure class="blocks-gallery-image">
           <img
-            src="~/assets/images/sponsors/nulia.png"
-            alt="Nulia"
-            data-id="256"
-          >
-        </figure>
-      </div>
-      <div class="col text-center">
-        <figure class="blocks-gallery-image">
-          <img
             src="~/assets/images/sponsors/XS-Media-Logo-Horizontal-Lite-Black-e1516088037343.png"
             alt="XS Media"
             data-id="256"

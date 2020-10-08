@@ -1,13 +1,5 @@
 <template>
   <main role="main">
-    <section
-      id="sponsor-hack-for-a-cause"
-      class="h4c-bg--primary py-5 text-center"
-    >
-      <p class="lead container py-5">
-        NOTICE: The 2020 Hack for a Cause event has been postponed and will no longer take place in April.<br>Please check <a href="/cancellation-policy">the cancellation page</a> for more information.
-      </p>
-    </section>
     <section>
       <hack-header header-class="h4c-header--main">
         <div id="h4c-header" class="flexcol">
@@ -33,13 +25,13 @@
             </div>
           </div>
           <div id="h4c-dates" class="h4c-info__heading">
-            <strong>DATE TBA</strong>
+            <strong>OCTOBER 22-27, 2020</strong>
           </div>
           <div
             id="h4c-location"
             class="h4c-info__heading text-center"
           >
-            <small>LOCATION TBA</small>
+            <small>LOCATION: VIRTUAL!</small>
           </div>
           <div id="h4c-description" class="h4c-info__heading">
             <strong>Philanthropic Hackathon</strong>
@@ -56,16 +48,16 @@
           <div class="flexrow h4c--cta">
             <div id="h4c-button">
               <a class="button"
-                 href="/cancellation-policy"
+                 href="https://web.cvent.com/event/bb8f1509-61ed-4486-8c73-15caeb61b07a/summary"
                  title="Sign up for Hack for a Cause 2020">
                 Register for Event
               </a>
             </div>
             <div id="h4c-button">
               <a class="button"
-                 href="/cancellation-policy"
-                 title="Submit a Challenge">
-                Submit a Challenge
+                 href="/challenges-2020"
+                 title="See the Challenges">
+                See the Challenges
               </a>
             </div>
             <div id="h4c-sponsor-link">
@@ -95,8 +87,8 @@
         benefits are outlined
         <a href="/H4C-Sponsorships.pdf" target="_blank">here</a> or
         contact
-        <a href="mailto:cara.snow@techoregon.org"
-        >cara.snow@techoregon.org</a
+        <a href="sally.bell@techoregon.org"
+        >sally.bell@techoregon.org</a
         >
       </p>
     </section>
