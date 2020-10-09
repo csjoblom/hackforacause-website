@@ -37,7 +37,7 @@
         <li class="nav-item">
           <a id="h4c-participate"
              class="nav-link"
-             href="/cancellation-policy"
+             href="https://web.cvent.com/event/bb8f1509-61ed-4486-8c73-15caeb61b07a/summary"
              title="Sign up for Hack for a Cause 2020"
           >Sign up!</a>
         </li>
