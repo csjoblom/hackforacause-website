@@ -41,7 +41,6 @@
              title="Sign up for Hack for a Cause 2020"
           >Sign up!</a>
         </li>
-        -->
       </ul>
     </div>
   </nav>
